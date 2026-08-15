@@ -35,7 +35,16 @@ from livekit.agents.beta.tools import EndCallTool
 from livekit.plugins import deepgram, elevenlabs, openai, silero
 
 from prompt import ARIA_INSTRUCTIONS, FIRST_MESSAGE, load_kb
-from tools import get_local_events, get_weather, log_caller_intent
+from tools import (
+    get_local_events,
+    get_weather,
+    log_booking_capture,
+    log_caller_intent,
+    log_cancellation_capture,
+    log_escalation_capture,
+    log_reschedule_capture,
+    verify_date,
+)
 
 
 def _build_calendar_reference(now: datetime, days_ahead: int = 90) -> str:
@@ -104,6 +113,11 @@ class AriaAgent(Agent):
                     end_instructions=None,
                 ),
                 log_caller_intent,
+                log_booking_capture,
+                log_cancellation_capture,
+                log_reschedule_capture,
+                log_escalation_capture,
+                verify_date,
                 get_weather,
                 get_local_events,
             ],
