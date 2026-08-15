@@ -1,0 +1,6 @@
+# LiveKit Agents core + plugins (1.2.0+ required by the CLI)
+livekit-agents[openai,deepgram,elevenlabs,silero]>=1.2.0
+
+# Utilities
+python-dotenv>=1.0.0
+aiohttp>=3.9.0

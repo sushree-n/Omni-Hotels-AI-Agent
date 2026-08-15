@@ -1,0 +1,28 @@
+# Never bake secrets into the image
+.env
+.env.local
+.env.*.local
+
+# Python build artifacts
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Version control
+.git/
+.gitignore
+
+# Docs (not needed in runtime image)
+docs/
+README.md
+*.md
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+
+# LiveKit local config
+livekit.toml

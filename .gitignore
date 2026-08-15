@@ -1,0 +1,33 @@
+# Env
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.python-version
+
+# Package manager
+uv.lock
+*.egg-info/
+dist/
+build/
+
+# LiveKit
+livekit.toml
+.livekit/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Logs / recordings
+*.log
+recordings/

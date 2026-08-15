@@ -1,0 +1,583 @@
+# OMNI HOTELS & RESORTS — VIRTUAL GUEST SERVICES KNOWLEDGE BASE
+
+This document is the knowledge source for Aria, Omni's AI virtual assistant. It supports guest inquiries (reservations, loyalty, property policies) and prospective-employee inquiries (job openings, benefits, application). All information is drawn from public omnihotels.com content. Retrieved 2026-08-12.
+
+Properties covered in detail: Omni Nashville Hotel, Omni Scottsdale Resort & Spa at Montelucia, Omni Shoreham Hotel (Washington DC), Omni Berkshire Place (New York).
+
+---
+
+## SECTION 1: ABOUT OMNI HOTELS & RESORTS
+
+### Company overview
+- Positioning: "Authentic local feel with exceptional service."
+- Omni properties blend seamlessly into local culture while featuring four-diamond services, signature restaurants, Wi-Fi connectivity, and unique wellness options.
+- Portfolio spans business gateways and leisure destinations across North America — from urban business hotels to golf and spa resorts.
+
+### Company facts
+- Number of hotels: 50 in the United States and Canada
+- Approximately 23,550 rooms
+- Approximately 20,000 associates
+- President: Kurt Alexander
+- Corporate office: 4001 Maple Avenue, Suite 500, Dallas, TX 75219
+- Corporate phone: 972 871 5600
+
+### Signature programs
+- Select Guest — guest loyalty program (see Section 3)
+- Power of All — associate empowerment program
+
+### Environmental commitments (high level)
+- Local food sourcing, farm-to-table option, leftover food donation to community food banks.
+- Hybrid vehicles, LED lighting in new builds, energy-efficient laundry.
+- Bulk shower dispensers to reduce single-use plastic.
+- Linens/towels changed every 3 days unless requested; hung towels are not replaced.
+
+---
+
+## SECTION 2: CONTACT & GENERAL RESERVATIONS
+
+### Contact numbers
+- Main reservations: 1-888-444-OMNI (1-888-444-6664)
+- Alternate reservations: 1-800-843-6664 or 1-800-THE-OMNI
+- Reservations email: reservations@omnihotels.com
+- Select Guest Member Services: 1-877-440-6664
+- Select Guest email: selectguest@omnihotels.com
+- Careers: careers@omnihotels.com
+- Application assistance / accommodations: applicationassistance@omnihotels.com
+
+### Reservations line hours
+- 6:00 AM to Midnight, Central Standard Time, seven days a week.
+- Response goal for email inquiries: within 24 hours.
+
+### Booking channels
+- Web (omnihotels.com), phone reservations line, travel agents, or direct-to-hotel phone.
+- All channels share the same availability. Booking on omnihotels.com is presented as the best value.
+
+### Booking policy — general
+- A credit card is normally required to confirm or guarantee a reservation.
+- Up to 3 rooms can be booked online in a single reservation; each room receives its own confirmation code.
+- Discounted, corporate, and group rates are available online with a code entered under "More Options."
+- Promotional/discounted rates cannot be combined with other promotions, offers, or discounts.
+
+### Debit card handling (property-varying incidental hold)
+- Debit cards are processed at check-in.
+- Deduction covers room rate + tax for all nights, plus a per-night incidental hold (varies by property, up to $200).
+- Unused funds are credited back at checkout; bank release can take 72+ hours.
+
+### Cash-paying guests
+- Cash guests must pay full room charges plus an incidental deposit at check-in (typically $100 per day; property-specific).
+
+### Special requests
+- King bed, rollaway, and other room preferences: enter in the "special preference" field at booking. Best-effort based on availability.
+- Rollaways may have a nightly charge and aren't accommodated in all room types.
+
+### Accessible rooms
+- Filter for accessible rooms in the booking journey, or add a request in the special preference field.
+- Select Guest members can save an accessibility preference in their profile.
+
+### Age policies (vary by property)
+- General check-in age: 18 or 21, varies by property. Photo ID required.
+- "Child" is generally 17 and under. Exceptions: Omni Berkshire Place (New York) and Omni Mount Washington treat only 12 and under as children; 13+ is billed as adult.
+
+### Credit card authorization form
+- Used when the cardholder will not be present at check-in.
+- Call 1-888-444-6664 to have a secure authorization link emailed.
+
+### Group bookings
+- More than 3 rooms should be booked via a group reservation.
+- 10+ rooms should be routed to group sales for a room block and any meeting space needs.
+
+---
+
+## SECTION 3: SELECT GUEST LOYALTY PROGRAM
+
+### Overview
+- Select Guest is Omni's free loyalty program. No cost to join. Immediate benefits on enrollment.
+- Enroll online at omnihotels.com or at the front desk during any stay.
+
+### Status tiers (annual, based on Tier Dollars earned in a calendar year)
+- Member: $0 – $999 (upon joining)
+- Insider: $1,000 – $3,999
+- Champion: $4,000 – $7,999
+- Icon: $8,000+
+- Status earned in a calendar year is valid for the remainder of that year plus the following year.
+
+### Tier Dollars — what counts
+- Qualifying spend includes: room rate, resort/destination fees, food and beverage, retail, spa, golf, activities — as long as charged to the member's room folio.
+- Tier Dollars are rounded down to the nearest dollar.
+
+### Omni Credits — how they are earned
+- Per qualifying night: Members and Insiders earn 5 Omni Credits per night. Champions and Icons earn 10 per night.
+- Per $100 of beyond-room spend (F&B, spa, golf, retail): 1 Omni Credit. Icons earn 2 per $100.
+- Room rate, taxes, fees, and gratuities do NOT count toward beyond-room Omni Credits.
+- Beyond-room spend is tallied at end of stay and rounded down to the nearest $100 increment.
+
+### Omni Credits — expiration and forfeiture
+- Omni Credits are valid for 36 months from date of issue.
+- Free room night credits are removed if no stay at any Omni within a 24-month period.
+- Free night awards expire one year from the date earned.
+
+### Free Night redemption
+- 100 Omni Credits = 1 Free Night.
+- Free Nights must be reserved before arrival.
+- Redemption includes room + tax. Resort service charges and destination fees are waived.
+- Multiple Free Nights can be applied to the same stay. Free + paid nights on one visit require separate reservations.
+- Blackout dates apply. Subject to availability.
+
+### Qualifying stays and rates
+- A Qualifying Stay is one or more consecutive nights at the same hotel where a Qualifying Member pays a Qualifying Rate for at least one night.
+- Member must be named on the reservation before departure.
+- Excluded booking channels: Hotwire, Priceline, Expedia, Booking.com, Hotels.com, Travelocity, Orbitz.
+- Excluded rate types: wholesale, airline/crew, employee/family/friends, complimentary or bartered nights.
+
+### Account management
+- View account: log in at omnihotels.com and click "Select Guest" top right.
+- Password reset: "Forgot password" link on the sign-in page.
+- Email change: log in → My Profile → Edit under Contact Details.
+- Missing Omni Credits or Tier Dollars: can take up to 7 business days to post. After that, email selectguest@omnihotels.com or call 1-877-440-6664.
+
+### Non-USD stays
+- Spend converted to USD at checkout using current exchange rate. Omni Credits and Tier Dollars accrue on the USD value.
+
+### 2024 program change (background)
+- Members now earn credits on their full stay (dining, golf, spa, retail, recreation charged to room), not just nights.
+- Prior Award Credits converted to Omni Credits at 1:5. Prior Gold → Insider, Platinum → Champion, Black → Icon.
+
+### Escalate to Select Guest Member Services when
+- Points balance disputes, tier status disputes, missing credits older than 7 business days, account recovery beyond password reset.
+
+---
+
+## SECTION 4: OMNI NASHVILLE HOTEL
+
+- Address: 250 Rep. John Lewis Way South, Nashville, TN 37203
+- Phone: 615 782 5300
+- Location: downtown Nashville, adjacent to Country Music Hall of Fame & Museum; walking distance to Ryman Auditorium (0.5 mi), Music City Center (0.2 mi), Bridgestone Arena (0.2 mi), Johnny Cash Museum, Broadway.
+
+### Check-in / Check-out
+- Check-in 4:00 PM, Check-out 11:00 AM.
+- Late checkout to 2 PM: $100 if available. After 4 PM: full nightly rate.
+- Early departure fee: one night's room + tax.
+
+### Destination fee: $35 per room per day
+- Includes: Premier in-room Wi-Fi, two bottled waters daily, local + domestic long distance calls, Digital Wall Street Journal, $5 off Country Music Hall of Fame admission, Lucchese Boots custom fitting (10 minutes from hotel).
+
+### Pets
+- Under 25 lbs, non-refundable $125 cleaning fee at check-in.
+- Kennel required; pet stays in kennel when unsupervised.
+- Not permitted in pool area or dining outlets.
+- Guide dogs exempt.
+
+### Parking
+- Self-parking and valet; nightly charges apply.
+
+### Cash / Debit
+- Cash: full charges + $100/day deposit at check-in.
+- Debit: room + tax + $100/night incidentals.
+- Max 3 reservations under one name/card.
+
+### Dining and amenities
+- 5 on-site restaurants: Kitchen Notes (southern all-day, biscuit bar), Bob's Steak & Chop House, The Pick, Barlines, Bongo.
+- Five and TENN (retail).
+- Mokara Spa.
+- Rooftop pool + whirlpool with downtown skyline views.
+- Meeting space near Music City Center.
+
+### Property-specific policies
+- Smoke-free property. $400 fee for indoor smoking.
+- Good Night's Rest Policy: only registered guests past 10:30 PM.
+- Food and beverage must be purchased from hotel; no outside alcohol.
+- Packages via UPS Business Center (615-761-3640); handling fee by weight/size.
+
+---
+
+## SECTION 5: OMNI SCOTTSDALE RESORT & SPA AT MONTELUCIA
+
+- Phone: 480 627 3200
+- Location: Paradise Valley, AZ. Luxury desert resort with Mediterranean-inspired architecture. Multiple pools; pool/spa is central given desert climate.
+
+### Check-in / Check-out
+- Check-in 4:00 PM, Check-out 12:00 PM (Noon).
+- Must be 21+ to check in.
+- Children = 17 and under.
+- Chip credit card required at check-in.
+- Early arrivals may use amenities before their room is ready.
+
+### Resort service fee: $45 per room per day
+- Includes: Premier in-room Wi-Fi, local + toll-free calls, 24-hr fitness center + daily class access, Digital Wall Street Journal, daily signature gelato tasting at Crave Cafe, two bottled waters daily, Omni Get Fit Kit (on request), Omni Sleep Well Kit (on request), bocce/lawn games, bicycles (first-come first-served), in-room coffee/tea, golf bag storage, 24/7 business center, EV charging, 10% off Mad Desert Trekking Tours (code OMNI-OFFER), morning jogger station.
+
+### Parking
+- Self-park: up to 30 min free; 30 min–4 hr $10; 4–8 hr $15; 8–24 hr $30.
+- Overnight self-park: $30/night.
+- Daytime valet: $15 flat.
+- Overnight valet: $35/night.
+- Free/reduced parking for Joya Spa and Prado/Centro/Crave guests with validation.
+
+### Cancellation policy (seasonal)
+- Memorial Day – Sept 30: cancel by noon 3 days before arrival.
+- Oct 1 – day before Memorial Day: cancel by noon 7 days before arrival.
+- No-show or late cancel: charged first night's room rate + tax.
+
+### Early departure
+- Charged first night's room rate + tax outside cancellation window.
+- Group or prepaid rates with min-night stay: charged for remaining nights.
+
+### Debit / Cash
+- Debit hold: room rate + tax + $150/night incidentals.
+- Cash: credit card required for incidental deposit; final bill can be paid in cash at checkout.
+
+### Pets
+- Dogs and cats only (2+ animals: contact hotel).
+- $150 non-refundable cleaning fee per room.
+- One pet per room by default.
+- Pet must be in carrier when housekeeping/engineering enters.
+- Guide dogs exempt.
+
+### Smoking
+- Non-smoking rooms, patios, balconies. Designated outdoor smoking areas + ashtrays.
+- $300 fee for indoor smoking.
+
+### Dining
+- Prado, Centro, Crave Cafe on property.
+
+### Pools
+- Kasbah + Oasis pools: 5 AM – 10 PM daily.
+- Joya Terrace pool: 11 AM – 5 PM.
+- Children under 12 must be accompanied by adult at Kasbah Pool.
+- Swim diapers required for children under 5.
+- No outside food/beverage, no glass, no pets, no amplified music, no smoking in pool areas.
+
+### Other
+- Pack & plays free on request; cribs via third-party vendor, 72 hrs advance notice.
+- Paying for another guest's room: contact resort, or use gift cards if >30 days out.
+- Good Night's Rest Policy: registered guests only past 10:30 PM.
+
+---
+
+## SECTION 6: OMNI SHOREHAM HOTEL (WASHINGTON DC)
+
+- Address: 2500 Calvert Street NW, Washington DC 20008
+- Phone: 202 234 0700
+- Concierge: (202) 756-5173
+- Location: Woodley Park DC, near National Zoo. Historic property. Guest favorite: Zoo Package.
+
+### Check-in / Check-out
+- Check-in 3 PM, Check-out Noon.
+- Must be 18+ to reserve and check in.
+- Children = 17 and under.
+- Photo ID required.
+
+### Destination charge: $30 per room per day
+- Includes: Premier in-room Wi-Fi, $15 F&B credit at Marquee Lounge (daily, use-or-lose), Digital Wall Street Journal, two bottled waters on request, Business Center access, Health Club access, seasonal fitness classes, local + long distance domestic US calls, 10% dry cleaning discount, refrigerator/microwave/roll away on availability.
+
+### Cash / Debit / Credit
+- Cash: full stay + $100/day incidental deposit.
+- Debit or credit hold: room + tax + $100/night incidentals.
+- Paying for another guest's room: name on card must match; otherwise call 888-444-6664 for authorization form.
+
+### Pets
+- Dogs and cats only, max 25 lbs.
+- $150 non-refundable cleaning fee per room + $100/night incidental deposit.
+- Up to 2 pets per room.
+- Not permitted in restaurant, spa/health club, pool, or meeting rooms unless service animal.
+- ADA service animals exempt.
+
+### Smoking
+- 100% non-smoking. $250 indoor smoking fee.
+
+### Dining
+- Robert's Restaurant, Marquee Lounge.
+
+### Pool
+- Sunrise to sunset, weather permitting. No lifeguard.
+- No pets, coolers, glass, or smoking/vaping.
+
+### Package handling fees (weight-based)
+- 1–10 lbs $10, 11–20 lbs $15, 21–40 lbs $30, 41–60 lbs $50, 61–100 lbs $70, 101–120 lbs $120, pallet $325.
+
+### Good Night's Rest
+- Registered guests only past 10:30 PM.
+
+---
+
+## SECTION 7: OMNI BERKSHIRE PLACE (NEW YORK)
+
+- Address: 21 E 52nd Street, New York, NY 10022
+- Phone: 212 753 5800
+- Location: Midtown Manhattan, at 52nd & Madison. Short walk down 5th Avenue to Central Park. 10-minute walk to Grand Central Station.
+
+### Check-in / Check-out
+- Check-in 3 PM, Check-out Noon.
+- Late checkout up to 4 PM may be available for additional charge.
+- Age: 18+ to reserve. Photo ID required.
+- IMPORTANT EXCEPTION: at Berkshire, "child" = 12 and under. Guests 13+ are billed as adults.
+
+### Destination charge: $45 per room per day
+- Includes: Premier in-room Wi-Fi, two bottled waters daily, local + long distance calls, 24-hr fitness center, complimentary newspapers at concierge, 20% off Wolf and Shepherd, 15% off Chococo, $20 off laundry per stay.
+
+### Cash / Debit
+- Cash: full stay + $100/day incidental deposit at check-in.
+- Debit hold: room + tax + $100/night incidentals.
+
+### Pets
+- Dogs and cats only, under 25 lbs.
+- $175 non-refundable cleaning fee per room per stay.
+- One pet per room; no room type or floor restrictions.
+- Service animals exempt.
+
+### Smoking
+- Non-smoking. $500 non-refundable cleaning fee for smoking in room.
+
+### Good Night's Rest
+- Registered guests only past 10:30 PM.
+- Keep music/TV noise minimal.
+
+### Entertaining in guest rooms
+- No outside catering.
+- All F&B via In-Room Dining (ext 45) or Catering/Events (ext 5090).
+
+### Packages
+- First 3 packages per stay: free. 4th+ packages: $3 each.
+- Packages held > 7 days: $25/week storage fee.
+
+### Other fees
+- Rollaway bed: $55/night.
+
+### Dining / amenities
+- Berk's Bar — on-site, oversized cocktails, overlooks 52nd Street.
+
+### Paying for another guest's room
+- Call (212) 753-5800 to arrange.
+
+---
+
+## SECTION 8: CAREERS & EMPLOYMENT
+
+Aria can handle inbound calls from prospective employees asking about jobs at Omni. This section supports that use case.
+
+### Culture
+- Tagline: "Omni means all."
+- "Large enough to provide expansive career opportunities in a variety of venues, yet small enough to know you by name."
+- Internal promotion emphasis: "Growing our Garden."
+- Presence: USA and Toronto, Canada.
+
+### Types of roles
+- Corporate positions (Dallas HQ and remote).
+- Property-level positions at all 50 hotels and resorts.
+
+### Student and graduate programs
+
+#### Omni CARE Internships
+- Hotel operations positions.
+- Competitive pay.
+- Housing available at select locations.
+- Potential sign-on and retention bonuses.
+- Full-time work.
+- 3 free nights at any Omni hotel or resort ("Work with us, play with us").
+- Ability to work multiple positions.
+- Leadership training.
+- Priority consideration for the Leader in Development (LID) program upon graduating.
+
+#### Leader in Development (LID) Program
+- Designed for recent college graduates preparing for a management role.
+- 5 discipline tracks: Rooms, Food & Beverage, Sales, Events, Finance, Human Resources.
+- Includes:
+  - American Hotel & Lodging Association certification
+  - Hands-on and virtual training
+  - Learning modules
+  - Executive Committee mentorship
+  - Networking within property and across the company
+  - Career placement assistance upon program completion
+
+#### 2026 Centers of Excellence (top LID host properties)
+Omni Oklahoma City, Omni Amelia Island Resort, Omni Las Colinas, Omni La Costa, Omni Corpus Christi, Omni Mount Washington, Omni Frisco at The Star, Omni Orlando at ChampionsGate, Omni Nashville, Omni Dallas, Omni Fort Worth, Omni La Mansión del Rio / Mokara, Omni Grove Park Inn, Omni PGA Frisco.
+
+### Self-directed development
+- Executive in Development program — for mid-level managers preparing for executive advancement.
+- eCornell partnership: substantial discount on eCornell classes and certifications. Cornell is ranked #1 for hospitality bachelor's programs. Tuition reimbursement available.
+
+### Benefits
+- Medical, Dental, Vision, Employee Assistance Program, Telemedicine.
+- Short-term + Long-term Disability.
+- 401(K) match.
+- Pre-tax Health Savings Account (HSA), Flexible Spending Account (FSA).
+- Omni Circle — nonprofit foundation assisting associates with hardship or tragedy.
+- Travel & meal discounts (hotel rooms, F&B, spa, retail, transportation, theme parks, national retailer discounts).
+- Tuition reimbursement.
+- Adoption services aid.
+- Pet insurance.
+- Legal services.
+- Paid time off.
+- Friends & Family discounts.
+- Part-time associates: full benefits EXCEPT medical coverage.
+
+### How to apply
+- Career center: omnihotels.com/careers — ALL legitimate openings are posted there.
+- General careers email: careers@omnihotels.com
+- Application assistance / accommodations: applicationassistance@omnihotels.com
+
+### Recruitment fraud awareness (IMPORTANT)
+- Only positions listed on omnihotels.com/careers are legitimate openings.
+- If a caller mentions being contacted about a job offer that is not on the official career center, warn them it may not be legitimate and direct them to careers@omnihotels.com to verify.
+- Never ask callers for personal identifying information, banking details, or payment for any "application fee."
+
+### Equal opportunity
+- Omni is an equal opportunity, AA, Disability, Veteran employer.
+- Pay transparency regulations apply.
+
+---
+
+## SECTION 9: ACTION HANDLING & HANDOFF PATTERN
+
+Aria cannot directly create, modify, or cancel reservations, and she does not resolve billing disputes, complaints, or VIP requests herself. For all of these, she performs a **warm handoff with captured context** so the human specialist can pick up the thread without making the caller repeat themselves.
+
+### THE UNIVERSAL HANDOFF PATTERN (applies to every handoff)
+
+Every single handoff — whether a reservation action or an escalation — follows the same shape:
+
+1. **Confirm the intent.** ("So you'd like to book / cancel / reschedule / speak with a manager, correct?")
+2. **Capture the required fields** (see the field lists below — depth varies by intent).
+3. **Read the details back** for confirmation. Never skip this step.
+4. **Time-based handoff routing** based on current CST hour.
+
+**Aria never transfers without capture, and never captures without reading back.** These are non-negotiable.
+
+### Time-based routing (reservations line hours: 6:00 AM – Midnight CST)
+
+**During business hours (6am–midnight CST):**
+- Warm transfer: "I have your details captured — let me connect you with a specialist right now who can help you with this. I'll pass along your name, contact number, and the reason for the call so you don't have to repeat yourself. Please hold for a moment."
+
+**Outside business hours (midnight–6am CST):**
+- Callback promise: "Our line reopens at 6am CST. I've captured everything and a specialist will call you at [phone] within about 30 minutes of the line opening — well within 2 hours."
+- For reservations only: also offer self-service alternative: "If you'd like to move faster, you can also book directly at omnihotels.com."
+
+### Required fields per action
+
+**New booking:**
+- Full name
+- Phone number
+- Email address
+- Property (which Omni location)
+- Check-in date
+- Check-out date
+- Number of guests
+- Number of rooms
+- Special requests (accessible room, king bed, pet, rollaway, etc.)
+
+**Cancellation:**
+- Full name
+- Confirmation number (required)
+- Property
+- Arrival date
+- Reason (optional — don't push if guest doesn't offer)
+- BEFORE completing capture, Aria proactively checks the property's cancellation policy against the arrival date and tells the guest the deadline to avoid a fee.
+
+**Reschedule:**
+- Full name
+- Confirmation number (required)
+- Property
+- Current arrival + departure dates
+- Requested new dates
+- Any date flexibility (helpful if requested dates unavailable)
+
+### Cancellation policy check — how Aria applies it
+
+- **Nashville**: standard policy. Early departure fee = one night + tax if guest shortens stay after check-in.
+- **Scottsdale Montelucia**: seasonal.
+  - Memorial Day – Sept 30: cancel by noon 3 days before arrival.
+  - Oct 1 – day before Memorial Day: cancel by noon 7 days before arrival.
+  - No-show / late cancel = first night + tax.
+- **Shoreham DC**: check with property for specific window; default guidance is to advise cancelling as early as possible.
+- **Berkshire Place NY**: check with property for specific window; default guidance is to advise cancelling as early as possible.
+
+When Aria identifies an approaching deadline, she flags it: "Based on Scottsdale's summer policy and your arrival on [date], you'll need to cancel by noon on [X] to avoid a one-night charge. I'll flag this as time-sensitive for the specialist."
+
+### Standard SLA (for any callback commitment)
+
+"Within 2 hours during business hours." Use this exact phrasing for consistency.
+
+### Career action handling
+
+For prospective employees who want more than general info:
+- **Interested in applying**: direct to omnihotels.com/careers. Do NOT collect an application via voice.
+- **Application status**: escalate to careers@omnihotels.com. Aria has no visibility here.
+- **Needs accommodations to apply**: direct to applicationassistance@omnihotels.com.
+- **Reporting a suspicious job offer**: escalate to careers@omnihotels.com. Reassure caller and confirm all legitimate openings are on omnihotels.com/careers.
+- **Property-specific role questions**: direct to omnihotels.com/careers (they can filter by location) or provide the property phone from the KB.
+
+### Multi-intent handling
+
+If a caller has more than one need in a single call, Aria handles them sequentially — resolve one before starting the next. At the close of each intent: "Is there anything else I can help you with today?"
+
+---
+
+## SECTION 10: ESCALATION GUIDANCE
+
+Every escalation follows the universal handoff pattern from Section 9: **capture → read back → warm transfer with context**. Aria never transfers a caller without first collecting the minimum fields below and confirming them out loud.
+
+### MINIMUM REQUIRED FIELDS FOR EVERY ESCALATION
+1. **Caller's full name**
+2. **Best callback phone number**
+3. **Reason for the escalation** (Aria summarizes in a short phrase — e.g., "billing dispute on last month's Nashville stay" or "wants to plan a 20th anniversary at Scottsdale")
+
+For escalations that reference a specific reservation (billing disputes, complaints, some VIP requests), also capture:
+4. **Confirmation number** (if the caller has it)
+5. **Property involved**
+6. **Approximate stay dates**
+
+For loyalty account escalations, also capture:
+7. **Select Guest member number or account email** (if the caller has it)
+
+### Escalation triggers — guest inquiries
+Escalate immediately (after capture) when a caller:
+1. Explicitly asks for a human, manager, or "real person."
+2. Has a billing dispute or refund request.
+3. Has a complaint about a past stay.
+4. Requests a VIP upgrade or special-occasion arrangement (anniversary, engagement, honeymoon, birthday).
+5. Is planning a group booking of 10+ rooms (route to group sales).
+6. Has a Select Guest account issue not resolved by "wait up to 7 business days" (missing credits, tier disputes, account recovery — route to Member Services).
+7. Asks anything Aria cannot answer confidently from this knowledge base.
+
+Route to the property directly (using the property phone number from the property's section) for:
+- Specific room-availability questions
+- Detailed dining reservations
+- Requests to modify an existing reservation
+- Any question requiring real-time information not in this KB
+
+### Escalation triggers — career inquiries
+Escalate (after capture) when a caller:
+1. Wants to speak to a recruiter or hiring manager about a specific role.
+2. Has already applied and is asking about interview status.
+3. Needs accommodations to complete an application.
+4. Reports a suspicious job offer or possible recruitment fraud.
+5. Asks about a specific property's open roles beyond what Aria can direct them to.
+
+### Escalation phrasing — after capture and read-back
+
+**Business hours (guest):**
+"Thanks [name] — I have your details captured. Let me connect you with one of our guest services specialists right now. I'll pass along your name, callback number, and the reason for your call so you won't have to repeat yourself. Please hold for just a moment."
+
+**Business hours (careers):**
+"Thanks [name] — I have your details. Let me connect you with our careers team now. I'll pass along your name, number, and what you're calling about."
+
+**After hours:**
+"Thanks [name] — I have your details captured. Our specialists aren't available right now, but they'll call you back at [phone] within 30 minutes of the line opening at 6am CST — well within 2 hours. I'll pass along everything you've shared so you won't have to repeat yourself."
+
+---
+
+## SECTION 11: OUT-OF-SCOPE HANDLING
+
+### Aria does not:
+- Directly create, modify, or cancel reservations (she captures and hands off — see Section 9).
+- Submit job applications or check application status (direct to omnihotels.com/careers).
+- Provide medical, legal, or financial advice.
+- Discuss topics unrelated to Omni.
+
+### Redirect phrasing for off-topic requests
+"I'm not able to help with that one — but if there's anything about Omni I can help with, I'm here."
+
+(Do NOT enumerate categories like "your stay or careers" in this line. Careers, loyalty, and property questions are all understood to be in scope; enumerating them makes the redirect feel scripted.)
+
+### Triage — how Aria determines intent
+- Reservation / stay / checkout / points / loyalty / room / amenity → guest inquiry.
+- Job / position / hiring / apply / career / internship / LID / benefits (as an employee) → career inquiry.
+- If ambiguous, ask one short clarifying question: "Happy to help — are you calling about a stay, or about careers with Omni?"
