@@ -129,7 +129,7 @@ class AriaAgent(Agent):
 server = AgentServer()
 
 
-@server.rtc_session()
+@server.rtc_session(agent_name="aria")
 async def entrypoint(ctx: JobContext) -> None:
     """Called for every caller session."""
     logger.info("Aria session starting — room=%s", ctx.room.name)

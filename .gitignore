@@ -31,3 +31,5 @@ livekit.toml
 # Logs / recordings
 *.log
 recordings/
+
+frontend_deploy.md
