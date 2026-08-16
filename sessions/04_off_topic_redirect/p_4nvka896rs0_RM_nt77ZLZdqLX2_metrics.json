@@ -1,0 +1,920 @@
+{
+  "resourceMetrics": [
+    {
+      "resource": {
+        "attributes": [
+          {
+            "key": "telemetry.sdk.language",
+            "value": {
+              "stringValue": "python"
+            }
+          },
+          {
+            "key": "telemetry.sdk.name",
+            "value": {
+              "stringValue": "opentelemetry"
+            }
+          },
+          {
+            "key": "telemetry.sdk.version",
+            "value": {
+              "stringValue": "1.44.0"
+            }
+          },
+          {
+            "key": "service.instance.id",
+            "value": {
+              "stringValue": "368ff722-cfdd-4649-a37d-d60ff9dffe47"
+            }
+          },
+          {
+            "key": "service.name",
+            "value": {
+              "stringValue": "livekit-agents"
+            }
+          },
+          {
+            "key": "room_id",
+            "value": {
+              "stringValue": "RM_nt77ZLZdqLX2"
+            }
+          },
+          {
+            "key": "job_id",
+            "value": {
+              "stringValue": "AJ_pUf6TAwctFXD"
+            }
+          },
+          {
+            "key": "lk.agent_name",
+            "value": {
+              "stringValue": "aria"
+            }
+          },
+          {
+            "key": "lk.cloud_agent_id",
+            "value": {
+              "stringValue": "CA_sq5brpU7a8FQ"
+            }
+          }
+        ]
+      },
+      "scopeMetrics": [
+        {
+          "scope": {
+            "name": "livekit-agents"
+          },
+          "metrics": [
+            {
+              "name": "lk.agents.usage.llm_input_tokens",
+              "sum": {
+                "dataPoints": [
+                  {
+                    "attributes": [
+                      {
+                        "key": "model_provider",
+                        "value": {
+                          "stringValue": "inference.baseten.co"
+                        }
+                      },
+                      {
+                        "key": "model_name",
+                        "value": {
+                          "stringValue": "zai-org/GLM-5.2-Fast"
+                        }
+                      }
+                    ],
+                    "startTimeUnixNano": "1786836954785161089",
+                    "timeUnixNano": "1786836969427014326",
+                    "asInt": "31886"
+                  },
+                  {
+                    "attributes": [
+                      {
+                        "key": "model_provider",
+                        "value": {
+                          "stringValue": "inference.baseten.co"
+                        }
+                      },
+                      {
+                        "key": "model_name",
+                        "value": {
+                          "stringValue": "zai-org/GLM-5.2-Fast"
+                        }
+                      }
+                    ],
+                    "startTimeUnixNano": "1786836954785205594",
+                    "timeUnixNano": "1786836969427014326",
+                    "asInt": "31808"
+                  },
+                  {
+                    "attributes": [
+                      {
+                        "key": "model_provider",
+                        "value": {
+                          "stringValue": "inference.baseten.co"
+                        }
+                      },
+                      {
+                        "key": "model_name",
+                        "value": {
+                          "stringValue": "zai-org/GLM-5.2-Fast"
+                        }
+                      }
+                    ],
+                    "startTimeUnixNano": "1786836954785225964",
+                    "timeUnixNano": "1786836969427014326",
+                    "asInt": "68"
+                  },
+                  {
+                    "attributes": [
+                      {
+                        "key": "model_provider",
+                        "value": {
+                          "stringValue": "inference.baseten.co"
+                        }
+                      },
+                      {
+                        "key": "model_name",
+                        "value": {
+                          "stringValue": "zai-org/GLM-5.2-Fast"
+                        }
+                      }
+                    ],
+                    "startTimeUnixNano": "1786836969427014326",
+                    "timeUnixNano": "1786836993683496701",
+                    "asInt": "77"
+                  }
+                ],
+                "aggregationTemporality": "AGGREGATION_TEMPORALITY_DELTA",
+                "isMonotonic": true
+              }
+            },
+            {
+              "name": "lk.agents.usage.interruption_num_requests",
+              "sum": {
+                "dataPoints": [
+                  {
+                    "attributes": [
+                      {
+                        "key": "model_provider",
+                        "value": {
+                          "stringValue": "livekit"
+                        }
+                      },
+                      {
+                        "key": "model_name",
+                        "value": {
+                          "stringValue": "adaptive interruption"
+                        }
+                      }
+                    ],
+                    "startTimeUnixNano": "1786836963274781296",
+                    "timeUnixNano": "1786836969427014326",
+                    "asInt": "10"
+                  }
+                ],
+                "aggregationTemporality": "AGGREGATION_TEMPORALITY_DELTA",
+                "isMonotonic": true
+              }
+            },
+            {
+              "name": "lk.agents.usage.tts_characters",
+              "sum": {
+                "dataPoints": [
+                  {
+                    "attributes": [
+                      {
+                        "key": "model_provider",
+                        "value": {
+                          "stringValue": "ElevenLabs"
+                        }
+                      },
+                      {
+                        "key": "model_name",
+                        "value": {
+                          "stringValue": "eleven_turbo_v2_5"
+                        }
+                      }
+                    ],
+                    "startTimeUnixNano": "1786836940980255120",
+                    "timeUnixNano": "1786836969427014326",
+                    "asInt": "405"
+                  },
+                  {
+                    "attributes": [
+                      {
+                        "key": "model_provider",
+                        "value": {
+                          "stringValue": "ElevenLabs"
+                        }
+                      },
+                      {
+                        "key": "model_name",
+                        "value": {
+                          "stringValue": "eleven_turbo_v2_5"
+                        }
+                      }
+                    ],
+                    "startTimeUnixNano": "1786836940980290452",
+                    "timeUnixNano": "1786836969427014326",
+                    "asDouble": 22.02122448979592
+                  },
+                  {
+                    "attributes": [
+                      {
+                        "key": "model_provider",
+                        "value": {
+                          "stringValue": "ElevenLabs"
+                        }
+                      },
+                      {
+                        "key": "model_name",
+                        "value": {
+                          "stringValue": "eleven_turbo_v2_5"
+                        }
+                      }
+                    ],
+                    "startTimeUnixNano": "1786836969427014326",
+                    "timeUnixNano": "1786836993683496701",
+                    "asDouble": 16.19591836734694
+                  }
+                ],
+                "aggregationTemporality": "AGGREGATION_TEMPORALITY_DELTA",
+                "isMonotonic": true
+              }
+            },
+            {
+              "name": "lk.agents.usage.stt_audio_duration",
+              "unit": "s",
+              "sum": {
+                "dataPoints": [
+                  {
+                    "attributes": [
+                      {
+                        "key": "model_provider",
+                        "value": {
+                          "stringValue": "Deepgram"
+                        }
+                      },
+                      {
+                        "key": "model_name",
+                        "value": {
+                          "stringValue": "nova-3"
+                        }
+                      }
+                    ],
+                    "startTimeUnixNano": "1786836945096968876",
+                    "timeUnixNano": "1786836969427014326",
+                    "asDouble": 24.649999999999952
+                  },
+                  {
+                    "attributes": [
+                      {
+                        "key": "model_provider",
+                        "value": {
+                          "stringValue": "Deepgram"
+                        }
+                      },
+                      {
+                        "key": "model_name",
+                        "value": {
+                          "stringValue": "nova-3"
+                        }
+                      }
+                    ],
+                    "startTimeUnixNano": "1786836969427014326",
+                    "timeUnixNano": "1786836993683496701",
+                    "asDouble": 25.14999999999995
+                  }
+                ],
+                "aggregationTemporality": "AGGREGATION_TEMPORALITY_DELTA",
+                "isMonotonic": true
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "resource": {
+        "attributes": [
+          {
+            "key": "telemetry.sdk.language",
+            "value": {
+              "stringValue": "python"
+            }
+          },
+          {
+            "key": "telemetry.sdk.name",
+            "value": {
+              "stringValue": "opentelemetry"
+            }
+          },
+          {
+            "key": "telemetry.sdk.version",
+            "value": {
+              "stringValue": "1.44.0"
+            }
+          },
+          {
+            "key": "service.instance.id",
+            "value": {
+              "stringValue": "368ff722-cfdd-4649-a37d-d60ff9dffe47"
+            }
+          },
+          {
+            "key": "service.name",
+            "value": {
+              "stringValue": "livekit-agents"
+            }
+          },
+          {
+            "key": "room_id",
+            "value": {
+              "stringValue": "RM_nt77ZLZdqLX2"
+            }
+          },
+          {
+            "key": "job_id",
+            "value": {
+              "stringValue": "AJ_pUf6TAwctFXD"
+            }
+          },
+          {
+            "key": "lk.agent_name",
+            "value": {
+              "stringValue": "aria"
+            }
+          },
+          {
+            "key": "lk.cloud_agent_id",
+            "value": {
+              "stringValue": "CA_sq5brpU7a8FQ"
+            }
+          }
+        ]
+      },
+      "scopeMetrics": [
+        {
+          "scope": {
+            "name": "livekit-agents"
+          },
+          "metrics": [
+            {
+              "name": "lk.agents.turn.e2e_latency",
+              "description": "End-to-end turn latency",
+              "unit": "s",
+              "histogram": {
+                "dataPoints": [
+                  {
+                    "attributes": [
+                      {
+                        "key": "model_name",
+                        "value": {
+                          "stringValue": "zai-org/GLM-5.2-Fast"
+                        }
+                      },
+                      {
+                        "key": "model_provider",
+                        "value": {
+                          "stringValue": "inference.baseten.co"
+                        }
+                      }
+                    ],
+                    "startTimeUnixNano": "1786836993060280801",
+                    "timeUnixNano": "1786836993683496701",
+                    "count": "3",
+                    "sum": 3.5305638313293457,
+                    "bucketCounts": [
+                      "0",
+                      "3",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0"
+                    ],
+                    "explicitBounds": [
+                      0,
+                      5,
+                      10,
+                      25,
+                      50,
+                      75,
+                      100,
+                      250,
+                      500,
+                      750,
+                      1000,
+                      2500,
+                      5000,
+                      7500,
+                      10000
+                    ],
+                    "min": 0.7762260437011719,
+                    "max": 1.3863475322723389
+                  },
+                  {
+                    "attributes": [
+                      {
+                        "key": "model_name",
+                        "value": {
+                          "stringValue": "zai-org/GLM-5.2-Fast"
+                        }
+                      },
+                      {
+                        "key": "model_provider",
+                        "value": {
+                          "stringValue": "inference.baseten.co"
+                        }
+                      }
+                    ],
+                    "startTimeUnixNano": "1786836993060302033",
+                    "timeUnixNano": "1786836993683496701",
+                    "count": "4",
+                    "sum": 3.341637412000182,
+                    "bucketCounts": [
+                      "0",
+                      "4",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0"
+                    ],
+                    "explicitBounds": [
+                      0,
+                      5,
+                      10,
+                      25,
+                      50,
+                      75,
+                      100,
+                      250,
+                      500,
+                      750,
+                      1000,
+                      2500,
+                      5000,
+                      7500,
+                      10000
+                    ],
+                    "min": 0.5442902890001733,
+                    "max": 1.1263742979999734
+                  }
+                ],
+                "aggregationTemporality": "AGGREGATION_TEMPORALITY_DELTA"
+              }
+            },
+            {
+              "name": "lk.agents.turn.tts_ttfb",
+              "description": "Pipeline-level TTS time to first byte",
+              "unit": "s",
+              "histogram": {
+                "dataPoints": [
+                  {
+                    "attributes": [
+                      {
+                        "key": "model_name",
+                        "value": {
+                          "stringValue": "eleven_turbo_v2_5"
+                        }
+                      },
+                      {
+                        "key": "model_provider",
+                        "value": {
+                          "stringValue": "ElevenLabs"
+                        }
+                      }
+                    ],
+                    "startTimeUnixNano": "1786836993060315442",
+                    "timeUnixNano": "1786836993683496701",
+                    "count": "4",
+                    "sum": 0.7910572970001795,
+                    "bucketCounts": [
+                      "0",
+                      "4",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0"
+                    ],
+                    "explicitBounds": [
+                      0,
+                      5,
+                      10,
+                      25,
+                      50,
+                      75,
+                      100,
+                      250,
+                      500,
+                      750,
+                      1000,
+                      2500,
+                      5000,
+                      7500,
+                      10000
+                    ],
+                    "min": 0.1491621350000969,
+                    "max": 0.258254862000058
+                  },
+                  {
+                    "startTimeUnixNano": "1786836993060181285",
+                    "timeUnixNano": "1786836993683496701",
+                    "count": "1",
+                    "sum": 0.16032656300012604,
+                    "bucketCounts": [
+                      "0",
+                      "1",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0"
+                    ],
+                    "explicitBounds": [
+                      0,
+                      5,
+                      10,
+                      25,
+                      50,
+                      75,
+                      100,
+                      250,
+                      500,
+                      750,
+                      1000,
+                      2500,
+                      5000,
+                      7500,
+                      10000
+                    ],
+                    "min": 0.16032656300012604,
+                    "max": 0.16032656300012604
+                  }
+                ],
+                "aggregationTemporality": "AGGREGATION_TEMPORALITY_DELTA"
+              }
+            },
+            {
+              "name": "lk.agents.connection.acquire_time",
+              "description": "Time to acquire a connection (WebSocket only)",
+              "unit": "s",
+              "histogram": {
+                "dataPoints": [
+                  {
+                    "attributes": [
+                      {
+                        "key": "model_provider",
+                        "value": {
+                          "stringValue": "Deepgram"
+                        }
+                      },
+                      {
+                        "key": "model_name",
+                        "value": {
+                          "stringValue": "nova-3"
+                        }
+                      },
+                      {
+                        "key": "connection_reused",
+                        "value": {
+                          "stringValue": "false"
+                        }
+                      }
+                    ],
+                    "startTimeUnixNano": "1786836940332456755",
+                    "timeUnixNano": "1786836969427014326",
+                    "count": "1",
+                    "sum": 0.26626530199996523,
+                    "bucketCounts": [
+                      "0",
+                      "1",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0"
+                    ],
+                    "explicitBounds": [
+                      0,
+                      5,
+                      10,
+                      25,
+                      50,
+                      75,
+                      100,
+                      250,
+                      500,
+                      750,
+                      1000,
+                      2500,
+                      5000,
+                      7500,
+                      10000
+                    ],
+                    "min": 0.26626530199996523,
+                    "max": 0.26626530199996523
+                  },
+                  {
+                    "attributes": [
+                      {
+                        "key": "model_provider",
+                        "value": {
+                          "stringValue": "ElevenLabs"
+                        }
+                      },
+                      {
+                        "key": "model_name",
+                        "value": {
+                          "stringValue": "eleven_turbo_v2_5"
+                        }
+                      },
+                      {
+                        "key": "connection_reused",
+                        "value": {
+                          "stringValue": "false"
+                        }
+                      }
+                    ],
+                    "startTimeUnixNano": "1786836940980312374",
+                    "timeUnixNano": "1786836969427014326",
+                    "count": "1",
+                    "sum": 0.10887554500004626,
+                    "bucketCounts": [
+                      "0",
+                      "1",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0"
+                    ],
+                    "explicitBounds": [
+                      0,
+                      5,
+                      10,
+                      25,
+                      50,
+                      75,
+                      100,
+                      250,
+                      500,
+                      750,
+                      1000,
+                      2500,
+                      5000,
+                      7500,
+                      10000
+                    ],
+                    "min": 0.10887554500004626,
+                    "max": 0.10887554500004626
+                  }
+                ],
+                "aggregationTemporality": "AGGREGATION_TEMPORALITY_DELTA"
+              }
+            },
+            {
+              "name": "lk.agents.turn.transcription_delay",
+              "description": "Time from end of speech to transcript available",
+              "unit": "s",
+              "histogram": {
+                "dataPoints": [
+                  {
+                    "attributes": [
+                      {
+                        "key": "model_name",
+                        "value": {
+                          "stringValue": "nova-3"
+                        }
+                      },
+                      {
+                        "key": "model_provider",
+                        "value": {
+                          "stringValue": "Deepgram"
+                        }
+                      }
+                    ],
+                    "startTimeUnixNano": "1786836993060214363",
+                    "timeUnixNano": "1786836993683496701",
+                    "count": "3",
+                    "sum": 0.7211606502532959,
+                    "bucketCounts": [
+                      "1",
+                      "2",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0"
+                    ],
+                    "explicitBounds": [
+                      0,
+                      5,
+                      10,
+                      25,
+                      50,
+                      75,
+                      100,
+                      250,
+                      500,
+                      750,
+                      1000,
+                      2500,
+                      5000,
+                      7500,
+                      10000
+                    ],
+                    "min": 0,
+                    "max": 0.36289167404174805
+                  },
+                  {
+                    "attributes": [
+                      {
+                        "key": "model_name",
+                        "value": {
+                          "stringValue": "nova-3"
+                        }
+                      },
+                      {
+                        "key": "model_provider",
+                        "value": {
+                          "stringValue": "Deepgram"
+                        }
+                      }
+                    ],
+                    "startTimeUnixNano": "1786836993060240101",
+                    "timeUnixNano": "1786836993683496701",
+                    "count": "3",
+                    "sum": 1.7315726280212402,
+                    "bucketCounts": [
+                      "0",
+                      "3",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0"
+                    ],
+                    "explicitBounds": [
+                      0,
+                      5,
+                      10,
+                      25,
+                      50,
+                      75,
+                      100,
+                      250,
+                      500,
+                      750,
+                      1000,
+                      2500,
+                      5000,
+                      7500,
+                      10000
+                    ],
+                    "min": 0.5769052505493164,
+                    "max": 0.5777270793914795
+                  },
+                  {
+                    "attributes": [
+                      {
+                        "key": "model_name",
+                        "value": {
+                          "stringValue": "nova-3"
+                        }
+                      },
+                      {
+                        "key": "model_provider",
+                        "value": {
+                          "stringValue": "Deepgram"
+                        }
+                      }
+                    ],
+                    "startTimeUnixNano": "1786836993060259390",
+                    "timeUnixNano": "1786836993683496701",
+                    "count": "4",
+                    "sum": 0.000007690999836995616,
+                    "bucketCounts": [
+                      "0",
+                      "4",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0",
+                      "0"
+                    ],
+                    "explicitBounds": [
+                      0,
+                      5,
+                      10,
+                      25,
+                      50,
+                      75,
+                      100,
+                      250,
+                      500,
+                      750,
+                      1000,
+                      2500,
+                      5000,
+                      7500,
+                      10000
+                    ],
+                    "min": 0.0000014719998944201507,
+                    "max": 0.0000023939999209687812
+                  }
+                ],
+                "aggregationTemporality": "AGGREGATION_TEMPORALITY_DELTA"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

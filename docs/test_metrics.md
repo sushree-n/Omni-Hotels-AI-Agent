@@ -41,4 +41,20 @@ Running log of test observations for slide 3 / slide 4. Populate as scenarios ar
 
 - Latency on info-heavy responses hits ~6s occasionally. Voice UX starts feeling laggy past 3s. Production would use a two-tier LLM setup.
 - Multi-intent handling in single-agent architecture is natively supported — no complex routing needed vs. workflow-based agents.
-- Date verification via injected calendar table is reliable in tests (vs. LLM computing weekdays in-head, which is unreliable).
+- Date verification via injected calendar table + `verify_date` tool is reliable in tests (vs. LLM computing weekdays in-head, which is unreliable).
+
+## Known limitations to flag in the report
+
+- **Open-Meteo weather tool doesn't fire on every booking flow.** Observed intermittent skipping — Aria sometimes proceeds to read-back without invoking `get_weather` even though property + dates are captured. Likely GLM 5.2 Fast prioritizing brevity over tool compliance. Production fix: make weather invocation deterministic in code (call it right after property+dates are captured, before returning to the LLM turn) instead of prompt-dependent.
+- **`log_caller_intent` compliance ~90%.** Aria occasionally skips the intent-logging tool call on short/obvious turns. Same root cause as above — LLM tool-compliance drift under a fast model. Production fix: post-call LLM classification script that reads the transcript and backfills any missing intent classifications.
+- **Test scenarios 12, 13, 14 skipped** — 12 (booking → cancellation intent shift) is a rare real-world case; 13 and 14 (events opt-in explicit / declined) are already covered by observed behavior in other test flows.
+
+## Slide 5 talking points (future improvements)
+
+- **Interruptible farewell:** current `EndCallTool` commits to hanging up once the farewell TTS starts playing. If the caller changes their mind mid-farewell ("wait — actually, one more thing..."), the call still ends. Production would monitor for caller speech during the farewell window and cancel the disconnect if detected, re-engaging the caller instead.
+- **Two-tier LLM routing:** fast/cheap model (e.g., GLM Fast, Gemini Flash) for read-only info FAQ responses, stronger model (e.g., GPT-4o, Claude) for capture flows and escalation. Cuts avg latency on the majority use case (~60% of calls are info) without sacrificing accuracy on complex flows.
+- **Authenticated `/api/token` endpoint:** current demo uses the LiveKit starter's preview-mode bypass (`IS_VERCEL_PREVIEW=true`). Production would add lightweight auth (session cookie or short-lived JWT) before issuing LiveKit tokens to prevent unauthenticated session generation.
+- **Structured capture persistence:** captures currently land in stdout logs (grep-able via `lk agent logs`). Production would POST each capture to a CRM webhook (Salesforce, Zendesk) or a lightweight DB with a specialist-facing dashboard.
+- **Post-call summarization:** LiveKit already surfaces token/latency metrics per session. Add a post-call LLM pass that summarizes the call outcome + next steps for the specialist, delivered alongside the structured capture.
+- **Multilingual support:** Deepgram nova-3 and ElevenLabs both support multi-language. Would open Omni's international guest segment.
+- **PMS integration:** connect to Omni's property management system for real-time availability, actual loyalty balances, and true booking/cancellation confirmation. Would lift containment rate from ~30% (info + off-topic) to 65-75% (all routine actions contained).

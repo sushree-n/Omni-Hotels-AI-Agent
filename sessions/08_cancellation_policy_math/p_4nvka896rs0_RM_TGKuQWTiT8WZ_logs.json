@@ -1,0 +1,5410 @@
+{
+  "resourceLogs": [
+    {
+      "resource": {
+        "attributes": [
+          {
+            "key": "telemetry.sdk.language",
+            "value": {
+              "stringValue": "python"
+            }
+          },
+          {
+            "key": "telemetry.sdk.name",
+            "value": {
+              "stringValue": "opentelemetry"
+            }
+          },
+          {
+            "key": "telemetry.sdk.version",
+            "value": {
+              "stringValue": "1.44.0"
+            }
+          },
+          {
+            "key": "service.instance.id",
+            "value": {
+              "stringValue": "918b152d-8d2c-49cf-918e-51e175a5b44d"
+            }
+          },
+          {
+            "key": "service.name",
+            "value": {
+              "stringValue": "unknown_service"
+            }
+          }
+        ]
+      },
+      "scopeLogs": [
+        {
+          "scope": {
+            "name": "omni-aria"
+          },
+          "logRecords": [
+            {
+              "timeUnixNano": "1786838036126860544",
+              "observedTimeUnixNano": "1786838036387268118",
+              "severityNumber": "SEVERITY_NUMBER_INFO",
+              "severityText": "INFO",
+              "body": {
+                "stringValue": "Aria session starting — room=console-eed23ac7"
+              },
+              "attributes": [
+                {
+                  "key": "code.file.path",
+                  "value": {
+                    "stringValue": "/app/agent.py"
+                  }
+                },
+                {
+                  "key": "code.function.name",
+                  "value": {
+                    "stringValue": "entrypoint"
+                  }
+                },
+                {
+                  "key": "code.line.number",
+                  "value": {
+                    "intValue": "135"
+                  }
+                },
+                {
+                  "key": "room_id",
+                  "value": {
+                    "stringValue": "RM_TGKuQWTiT8WZ"
+                  }
+                },
+                {
+                  "key": "job_id",
+                  "value": {
+                    "stringValue": "AJ_PRU3z3NiQa9w"
+                  }
+                },
+                {
+                  "key": "lk.agent_name",
+                  "value": {
+                    "stringValue": "aria"
+                  }
+                },
+                {
+                  "key": "lk.cloud_agent_id",
+                  "value": {
+                    "stringValue": "CA_sq5brpU7a8FQ"
+                  }
+                },
+                {
+                  "key": "logger.name",
+                  "value": {
+                    "stringValue": "omni-aria"
+                  }
+                },
+                {
+                  "key": "lk.id",
+                  "value": {
+                    "stringValue": "fbf7fbd8-2efb-6524-67d3-70592d656d07"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "scope": {
+            "name": "livekit.agents"
+          },
+          "logRecords": [
+            {
+              "timeUnixNano": "1786838036328703744",
+              "observedTimeUnixNano": "1786838036387410325",
+              "severityNumber": "SEVERITY_NUMBER_WARN",
+              "severityText": "WARN",
+              "body": {
+                "stringValue": "metrics_collected is deprecated. Use session_usage_updated for usage tracking and ChatMessage.metrics for per-turn latency."
+              },
+              "attributes": [
+                {
+                  "key": "code.file.path",
+                  "value": {
+                    "stringValue": "/opt/venv/lib/python3.11/site-packages/livekit/agents/voice/agent_session.py"
+                  }
+                },
+                {
+                  "key": "code.function.name",
+                  "value": {
+                    "stringValue": "on"
+                  }
+                },
+                {
+                  "key": "code.line.number",
+                  "value": {
+                    "intValue": "719"
+                  }
+                },
+                {
+                  "key": "room_id",
+                  "value": {
+                    "stringValue": "RM_TGKuQWTiT8WZ"
+                  }
+                },
+                {
+                  "key": "job_id",
+                  "value": {
+                    "stringValue": "AJ_PRU3z3NiQa9w"
+                  }
+                },
+                {
+                  "key": "lk.agent_name",
+                  "value": {
+                    "stringValue": "aria"
+                  }
+                },
+                {
+                  "key": "lk.cloud_agent_id",
+                  "value": {
+                    "stringValue": "CA_sq5brpU7a8FQ"
+                  }
+                },
+                {
+                  "key": "logger.name",
+                  "value": {
+                    "stringValue": "livekit.agents"
+                  }
+                },
+                {
+                  "key": "lk.id",
+                  "value": {
+                    "stringValue": "bddf1b88-c9eb-655a-25d2-9a7511b6a6a7"
+                  }
+                }
+              ]
+            },
+            {
+              "timeUnixNano": "1786838036910259200",
+              "observedTimeUnixNano": "1786838036911011383",
+              "severityNumber": "SEVERITY_NUMBER_INFO",
+              "severityText": "INFO",
+              "body": {
+                "stringValue": "adaptive interruption detector initialized"
+              },
+              "attributes": [
+                {
+                  "key": "base_url",
+                  "value": {
+                    "stringValue": "http://inference.livekit.svc.cluster.local/v1"
+                  }
+                },
+                {
+                  "key": "detection_interval",
+                  "value": {
+                    "doubleValue": 0.1
+                  }
+                },
+                {
+                  "key": "audio_prefix_duration",
+                  "value": {
+                    "doubleValue": 1
+                  }
+                },
+                {
+                  "key": "max_audio_duration",
+                  "value": {
+                    "intValue": "3"
+                  }
+                },
+                {
+                  "key": "min_frames",
+                  "value": {
+                    "intValue": "2"
+                  }
+                },
+                {
+                  "key": "inference_timeout",
+                  "value": {
+                    "doubleValue": 0.7
+                  }
+                },
+                {
+                  "key": "code.file.path",
+                  "value": {
+                    "stringValue": "/opt/venv/lib/python3.11/site-packages/livekit/agents/inference/interruption.py"
+                  }
+                },
+                {
+                  "key": "code.function.name",
+                  "value": {
+                    "stringValue": "__init__"
+                  }
+                },
+                {
+                  "key": "code.line.number",
+                  "value": {
+                    "intValue": "347"
+                  }
+                },
+                {
+                  "key": "room_id",
+                  "value": {
+                    "stringValue": "RM_TGKuQWTiT8WZ"
+                  }
+                },
+                {
+                  "key": "job_id",
+                  "value": {
+                    "stringValue": "AJ_PRU3z3NiQa9w"
+                  }
+                },
+                {
+                  "key": "lk.agent_name",
+                  "value": {
+                    "stringValue": "aria"
+                  }
+                },
+                {
+                  "key": "lk.cloud_agent_id",
+                  "value": {
+                    "stringValue": "CA_sq5brpU7a8FQ"
+                  }
+                },
+                {
+                  "key": "logger.name",
+                  "value": {
+                    "stringValue": "livekit.agents"
+                  }
+                },
+                {
+                  "key": "lk.id",
+                  "value": {
+                    "stringValue": "e78cc0b0-f6a5-4466-1576-30d7711d4883"
+                  }
+                }
+              ],
+              "flags": 3,
+              "traceId": "MnyfWzqFcKl/A6REE+5azA==",
+              "spanId": "4euxI9Defnc="
+            },
+            {
+              "timeUnixNano": "1786838037123381760",
+              "observedTimeUnixNano": "1786838037123685969",
+              "severityNumber": "SEVERITY_NUMBER_INFO",
+              "severityText": "INFO",
+              "body": {
+                "stringValue": "STT metrics"
+              },
+              "attributes": [
+                {
+                  "key": "model_name",
+                  "value": {
+                    "stringValue": "nova-3"
+                  }
+                },
+                {
+                  "key": "model_provider",
+                  "value": {
+                    "stringValue": "Deepgram"
+                  }
+                },
+                {
+                  "key": "audio_duration",
+                  "value": {
+                    "doubleValue": 0
+                  }
+                },
+                {
+                  "key": "code.file.path",
+                  "value": {
+                    "stringValue": "/opt/venv/lib/python3.11/site-packages/livekit/agents/metrics/utils.py"
+                  }
+                },
+                {
+                  "key": "code.function.name",
+                  "value": {
+                    "stringValue": "log_metrics"
+                  }
+                },
+                {
+                  "key": "code.line.number",
+                  "value": {
+                    "intValue": "89"
+                  }
+                },
+                {
+                  "key": "room_id",
+                  "value": {
+                    "stringValue": "RM_TGKuQWTiT8WZ"
+                  }
+                },
+                {
+                  "key": "job_id",
+                  "value": {
+                    "stringValue": "AJ_PRU3z3NiQa9w"
+                  }
+                },
+                {
+                  "key": "lk.agent_name",
+                  "value": {
+                    "stringValue": "aria"
+                  }
+                },
+                {
+                  "key": "lk.cloud_agent_id",
+                  "value": {
+                    "stringValue": "CA_sq5brpU7a8FQ"
+                  }
+                },
+                {
+                  "key": "logger.name",
+                  "value": {
+                    "stringValue": "livekit.agents"
+                  }
+                },
+                {
+                  "key": "lk.id",
+                  "value": {
+                    "stringValue": "f4626451-4fdc-27a5-7a52-7fdaae2e7454"
+                  }
+                }
+              ],
+              "flags": 3,
+              "traceId": "MnyfWzqFcKl/A6REE+5azA==",
+              "spanId": "4euxI9Defnc="
+            },
+            {
+              "timeUnixNano": "1786838037855643648",
+              "observedTimeUnixNano": "1786838037855828354",
+              "severityNumber": "SEVERITY_NUMBER_INFO",
+              "severityText": "INFO",
+              "body": {
+                "stringValue": "TTS metrics"
+              },
+              "attributes": [
+                {
+                  "key": "model_name",
+                  "value": {
+                    "stringValue": "eleven_turbo_v2_5"
+                  }
+                },
+                {
+                  "key": "model_provider",
+                  "value": {
+                    "stringValue": "ElevenLabs"
+                  }
+                },
+                {
+                  "key": "ttfb",
+                  "value": {
+                    "doubleValue": 0.16440977199999907
+                  }
+                },
+                {
+                  "key": "audio_duration",
+                  "value": {
+                    "doubleValue": 7.84
+                  }
+                },
+                {
+                  "key": "code.file.path",
+                  "value": {
+                    "stringValue": "/opt/venv/lib/python3.11/site-packages/livekit/agents/metrics/utils.py"
+                  }
+                },
+                {
+                  "key": "code.function.name",
+                  "value": {
+                    "stringValue": "log_metrics"
+                  }
+                },
+                {
+                  "key": "code.line.number",
+                  "value": {
+                    "intValue": "71"
+                  }
+                },
+                {
+                  "key": "room_id",
+                  "value": {
+                    "stringValue": "RM_TGKuQWTiT8WZ"
+                  }
+                },
+                {
+                  "key": "job_id",
+                  "value": {
+                    "stringValue": "AJ_PRU3z3NiQa9w"
+                  }
+                },
+                {
+                  "key": "lk.agent_name",
+                  "value": {
+                    "stringValue": "aria"
+                  }
+                },
+                {
+                  "key": "lk.cloud_agent_id",
+                  "value": {
+                    "stringValue": "CA_sq5brpU7a8FQ"
+                  }
+                },
+                {
+                  "key": "logger.name",
+                  "value": {
+                    "stringValue": "livekit.agents"
+                  }
+                },
+                {
+                  "key": "lk.id",
+                  "value": {
+                    "stringValue": "57c47078-4e22-e5e3-53b6-ebede71ddb80"
+                  }
+                }
+              ],
+              "flags": 3,
+              "traceId": "MnyfWzqFcKl/A6REE+5azA==",
+              "spanId": "QkAbF5BelgE="
+            },
+            {
+              "timeUnixNano": "1786838041943158784",
+              "observedTimeUnixNano": "1786838041943384906",
+              "severityNumber": "SEVERITY_NUMBER_INFO",
+              "severityText": "INFO",
+              "body": {
+                "stringValue": "STT metrics"
+              },
+              "attributes": [
+                {
+                  "key": "model_name",
+                  "value": {
+                    "stringValue": "nova-3"
+                  }
+                },
+                {
+                  "key": "model_provider",
+                  "value": {
+                    "stringValue": "Deepgram"
+                  }
+                },
+                {
+                  "key": "audio_duration",
+                  "value": {
+                    "doubleValue": 4.55
+                  }
+                },
+                {
+                  "key": "code.file.path",
+                  "value": {
+                    "stringValue": "/opt/venv/lib/python3.11/site-packages/livekit/agents/metrics/utils.py"
+                  }
+                },
+                {
+                  "key": "code.function.name",
+                  "value": {
+                    "stringValue": "log_metrics"
+                  }
+                },
+                {
+                  "key": "code.line.number",
+                  "value": {
+                    "intValue": "89"
+                  }
+                },
+                {
+                  "key": "room_id",
+                  "value": {
+                    "stringValue": "RM_TGKuQWTiT8WZ"
+                  }
+                },
+                {
+                  "key": "job_id",
+                  "value": {
+                    "stringValue": "AJ_PRU3z3NiQa9w"
+                  }
+                },
+                {
+                  "key": "lk.agent_name",
+                  "value": {
+                    "stringValue": "aria"
+                  }
+                },
+                {
+                  "key": "lk.cloud_agent_id",
+                  "value": {
+                    "stringValue": "CA_sq5brpU7a8FQ"
+                  }
+                },
+                {
+                  "key": "logger.name",
+                  "value": {
+                    "stringValue": "livekit.agents"
+                  }
+                },
+                {
+                  "key": "lk.id",
+                  "value": {
+                    "stringValue": "cc455231-499d-2a15-1121-4d72414d9dac"
+                  }
+                }
+              ],
+              "flags": 3,
+              "traceId": "MnyfWzqFcKl/A6REE+5azA==",
+              "spanId": "4euxI9Defnc="
+            },
+            {
+              "timeUnixNano": "1786838046942945024",
+              "observedTimeUnixNano": "1786838046943170435",
+              "severityNumber": "SEVERITY_NUMBER_INFO",
+              "severityText": "INFO",
+              "body": {
+                "stringValue": "STT metrics"
+              },
+              "attributes": [
+                {
+                  "key": "model_name",
+                  "value": {
+                    "stringValue": "nova-3"
+                  }
+                },
+                {
+                  "key": "model_provider",
+                  "value": {
+                    "stringValue": "Deepgram"
+                  }
+                },
+                {
+                  "key": "audio_duration",
+                  "value": {
+                    "doubleValue": 5
+                  }
+                },
+                {
+                  "key": "code.file.path",
+                  "value": {
+                    "stringValue": "/opt/venv/lib/python3.11/site-packages/livekit/agents/metrics/utils.py"
+                  }
+                },
+                {
+                  "key": "code.function.name",
+                  "value": {
+                    "stringValue": "log_metrics"
+                  }
+                },
+                {
+                  "key": "code.line.number",
+                  "value": {
+                    "intValue": "89"
+                  }
+                },
+                {
+                  "key": "room_id",
+                  "value": {
+                    "stringValue": "RM_TGKuQWTiT8WZ"
+                  }
+                },
+                {
+                  "key": "job_id",
+                  "value": {
+                    "stringValue": "AJ_PRU3z3NiQa9w"
+                  }
+                },
+                {
+                  "key": "lk.agent_name",
+                  "value": {
+                    "stringValue": "aria"
+                  }
+                },
+                {
+                  "key": "lk.cloud_agent_id",
+                  "value": {
+                    "stringValue": "CA_sq5brpU7a8FQ"
+                  }
+                },
+                {
+                  "key": "logger.name",
+                  "value": {
+                    "stringValue": "livekit.agents"
+                  }
+                },
+                {
+                  "key": "lk.id",
+                  "value": {
+                    "stringValue": "03893145-86fb-1ff1-d4f7-a05322161542"
+                  }
+                }
+              ],
+              "flags": 3,
+              "traceId": "MnyfWzqFcKl/A6REE+5azA==",
+              "spanId": "4euxI9Defnc="
+            },
+            {
+              "timeUnixNano": "1786838051992191744",
+              "observedTimeUnixNano": "1786838051992457498",
+              "severityNumber": "SEVERITY_NUMBER_INFO",
+              "severityText": "INFO",
+              "body": {
+                "stringValue": "STT metrics"
+              },
+              "attributes": [
+                {
+                  "key": "model_name",
+                  "value": {
+                    "stringValue": "nova-3"
+                  }
+                },
+                {
+                  "key": "model_provider",
+                  "value": {
+                    "stringValue": "Deepgram"
+                  }
+                },
+                {
+                  "key": "audio_duration",
+                  "value": {
+                    "doubleValue": 5.05
+                  }
+                },
+                {
+                  "key": "code.file.path",
+                  "value": {
+                    "stringValue": "/opt/venv/lib/python3.11/site-packages/livekit/agents/metrics/utils.py"
+                  }
+                },
+                {
+                  "key": "code.function.name",
+                  "value": {
+                    "stringValue": "log_metrics"
+                  }
+                },
+                {
+                  "key": "code.line.number",
+                  "value": {
+                    "intValue": "89"
+                  }
+                },
+                {
+                  "key": "room_id",
+                  "value": {
+                    "stringValue": "RM_TGKuQWTiT8WZ"
+                  }
+                },
+                {
+                  "key": "job_id",
+                  "value": {
+                    "stringValue": "AJ_PRU3z3NiQa9w"
+                  }
+                },
+                {
+                  "key": "lk.agent_name",
+                  "value": {
+                    "stringValue": "aria"
+                  }
+                },
+                {
+                  "key": "lk.cloud_agent_id",
+                  "value": {
+                    "stringValue": "CA_sq5brpU7a8FQ"
+                  }
+                },
+                {
+                  "key": "logger.name",
+                  "value": {
+                    "stringValue": "livekit.agents"
+                  }
+                },
+                {
+                  "key": "lk.id",
+                  "value": {
+                    "stringValue": "bd7bd29a-34cd-a193-9547-5a1c70e8585a"
+                  }
+                }
+              ],
+              "flags": 3,
+              "traceId": "MnyfWzqFcKl/A6REE+5azA==",
+              "spanId": "4euxI9Defnc="
+            },
+            {
+              "timeUnixNano": "1786838052074204160",
+              "observedTimeUnixNano": "1786838052074371143",
+              "severityNumber": "SEVERITY_NUMBER_INFO",
+              "severityText": "INFO",
+              "body": {
+                "stringValue": "LLM metrics"
+              },
+              "attributes": [
+                {
+                  "key": "model_name",
+                  "value": {
+                    "stringValue": "zai-org/GLM-5.2-Fast"
+                  }
+                },
+                {
+                  "key": "model_provider",
+                  "value": {
+                    "stringValue": "inference.baseten.co"
+                  }
+                },
+                {
+                  "key": "ttft",
+                  "value": {
+                    "doubleValue": 1.73
+                  }
+                },
+                {
+                  "key": "prompt_tokens",
+                  "value": {
+                    "intValue": "15922"
+                  }
+                },
+                {
+                  "key": "prompt_cached_tokens",
+                  "value": {
+                    "intValue": "2528"
+                  }
+                },
+                {
+                  "key": "cache_creation_tokens",
+                  "value": {
+                    "intValue": "0"
+                  }
+                },
+                {
+                  "key": "completion_tokens",
+                  "value": {
+                    "intValue": "29"
+                  }
+                },
+                {
+                  "key": "tokens_per_second",
+                  "value": {
+                    "doubleValue": 14.4
+                  }
+                },
+                {
+                  "key": "code.file.path",
+                  "value": {
+                    "stringValue": "/opt/venv/lib/python3.11/site-packages/livekit/agents/metrics/utils.py"
+                  }
+                },
+                {
+                  "key": "code.function.name",
+                  "value": {
+                    "stringValue": "log_metrics"
+                  }
+                },
+                {
+                  "key": "code.line.number",
+                  "value": {
+                    "intValue": "30"
+                  }
+                },
+                {
+                  "key": "room_id",
+                  "value": {
+                    "stringValue": "RM_TGKuQWTiT8WZ"
+                  }
+                },
+                {
+                  "key": "job_id",
+                  "value": {
+                    "stringValue": "AJ_PRU3z3NiQa9w"
+                  }
+                },
+                {
+                  "key": "lk.agent_name",
+                  "value": {
+                    "stringValue": "aria"
+                  }
+                },
+                {
+                  "key": "lk.cloud_agent_id",
+                  "value": {
+                    "stringValue": "CA_sq5brpU7a8FQ"
+                  }
+                },
+                {
+                  "key": "logger.name",
+                  "value": {
+                    "stringValue": "livekit.agents"
+                  }
+                },
+                {
+                  "key": "lk.id",
+                  "value": {
+                    "stringValue": "e8316f21-3856-2eab-2bc6-d8377043ae99"
+                  }
+                }
+              ],
+              "flags": 3,
+              "traceId": "MnyfWzqFcKl/A6REE+5azA==",
+              "spanId": "/9pE/3aoAVY="
+            },
+            {
+              "timeUnixNano": "1786838056373065728",
+              "observedTimeUnixNano": "1786838056373223073",
+              "severityNumber": "SEVERITY_NUMBER_INFO",
+              "severityText": "INFO",
+              "body": {
+                "stringValue": "LLM metrics"
+              },
+              "attributes": [
+                {
+                  "key": "model_name",
+                  "value": {
+                    "stringValue": "zai-org/GLM-5.2-Fast"
+                  }
+                },
+                {
+                  "key": "model_provider",
+                  "value": {
+                    "stringValue": "inference.baseten.co"
+                  }
+                },
+                {
+                  "key": "ttft",
+                  "value": {
+                    "doubleValue": 2.03
+                  }
+                },
+                {
+                  "key": "prompt_tokens",
+                  "value": {
+                    "intValue": "15933"
+                  }
+                },
+                {
+                  "key": "prompt_cached_tokens",
+                  "value": {
+                    "intValue": "15904"
+                  }
+                },
+                {
+                  "key": "cache_creation_tokens",
+                  "value": {
+                    "intValue": "0"
+                  }
+                },
+                {
+                  "key": "completion_tokens",
+                  "value": {
+                    "intValue": "66"
+                  }
+                },
+                {
+                  "key": "tokens_per_second",
+                  "value": {
+                    "doubleValue": 29.7
+                  }
+                },
+                {
+                  "key": "code.file.path",
+                  "value": {
+                    "stringValue": "/opt/venv/lib/python3.11/site-packages/livekit/agents/metrics/utils.py"
+                  }
+                },
+                {
+                  "key": "code.function.name",
+                  "value": {
+                    "stringValue": "log_metrics"
+                  }
+                },
+                {
+                  "key": "code.line.number",
+                  "value": {
+                    "intValue": "30"
+                  }
+                },
+                {
+                  "key": "room_id",
+                  "value": {
+                    "stringValue": "RM_TGKuQWTiT8WZ"
+                  }
+                },
+                {
+                  "key": "job_id",
+                  "value": {
+                    "stringValue": "AJ_PRU3z3NiQa9w"
+                  }
+                },
+                {
+                  "key": "lk.agent_name",
+                  "value": {
+                    "stringValue": "aria"
+                  }
+                },
+                {
+                  "key": "lk.cloud_agent_id",
+                  "value": {
+                    "stringValue": "CA_sq5brpU7a8FQ"
+                  }
+                },
+                {
+                  "key": "logger.name",
+                  "value": {
+                    "stringValue": "livekit.agents"
+                  }
+                },
+                {
+                  "key": "lk.id",
+                  "value": {
+                    "stringValue": "f5b77adf-4fe4-bca2-3bbb-4976f02946ce"
+                  }
+                }
+              ],
+              "flags": 3,
+              "traceId": "MnyfWzqFcKl/A6REE+5azA==",
+              "spanId": "dGJunvulDMo="
+            },
+            {
+              "timeUnixNano": "1786838056992764928",
+              "observedTimeUnixNano": "1786838056993002626",
+              "severityNumber": "SEVERITY_NUMBER_INFO",
+              "severityText": "INFO",
+              "body": {
+                "stringValue": "STT metrics"
+              },
+              "attributes": [
+                {
+                  "key": "model_name",
+                  "value": {
+                    "stringValue": "nova-3"
+                  }
+                },
+                {
+                  "key": "model_provider",
+                  "value": {
+                    "stringValue": "Deepgram"
+                  }
+                },
+                {
+                  "key": "audio_duration",
+                  "value": {
+                    "doubleValue": 5
+                  }
+                },
+                {
+                  "key": "code.file.path",
+                  "value": {
+                    "stringValue": "/opt/venv/lib/python3.11/site-packages/livekit/agents/metrics/utils.py"
+                  }
+                },
+                {
+                  "key": "code.function.name",
+                  "value": {
+                    "stringValue": "log_metrics"
+                  }
+                },
+                {
+                  "key": "code.line.number",
+                  "value": {
+                    "intValue": "89"
+                  }
+                },
+                {
+                  "key": "room_id",
+                  "value": {
+                    "stringValue": "RM_TGKuQWTiT8WZ"
+                  }
+                },
+                {
+                  "key": "job_id",
+                  "value": {
+                    "stringValue": "AJ_PRU3z3NiQa9w"
+                  }
+                },
+                {
+                  "key": "lk.agent_name",
+                  "value": {
+                    "stringValue": "aria"
+                  }
+                },
+                {
+                  "key": "lk.cloud_agent_id",
+                  "value": {
+                    "stringValue": "CA_sq5brpU7a8FQ"
+                  }
+                },
+                {
+                  "key": "logger.name",
+                  "value": {
+                    "stringValue": "livekit.agents"
+                  }
+                },
+                {
+                  "key": "lk.id",
+                  "value": {
+                    "stringValue": "ef807bfb-8070-5a45-e4b0-28233afe1ea0"
+                  }
+                }
+              ],
+              "flags": 3,
+              "traceId": "MnyfWzqFcKl/A6REE+5azA==",
+              "spanId": "4euxI9Defnc="
+            },
+            {
+              "timeUnixNano": "1786838062042777344",
+              "observedTimeUnixNano": "1786838062042996927",
+              "severityNumber": "SEVERITY_NUMBER_INFO",
+              "severityText": "INFO",
+              "body": {
+                "stringValue": "STT metrics"
+              },
+              "attributes": [
+                {
+                  "key": "model_name",
+                  "value": {
+                    "stringValue": "nova-3"
+                  }
+                },
+                {
+                  "key": "model_provider",
+                  "value": {
+                    "stringValue": "Deepgram"
+                  }
+                },
+                {
+                  "key": "audio_duration",
+                  "value": {
+                    "doubleValue": 5.05
+                  }
+                },
+                {
+                  "key": "code.file.path",
+                  "value": {
+                    "stringValue": "/opt/venv/lib/python3.11/site-packages/livekit/agents/metrics/utils.py"
+                  }
+                },
+                {
+                  "key": "code.function.name",
+                  "value": {
+                    "stringValue": "log_metrics"
+                  }
+                },
+                {
+                  "key": "code.line.number",
+                  "value": {
+                    "intValue": "89"
+                  }
+                },
+                {
+                  "key": "room_id",
+                  "value": {
+                    "stringValue": "RM_TGKuQWTiT8WZ"
+                  }
+                },
+                {
+                  "key": "job_id",
+                  "value": {
+                    "stringValue": "AJ_PRU3z3NiQa9w"
+                  }
+                },
+                {
+                  "key": "lk.agent_name",
+                  "value": {
+                    "stringValue": "aria"
+                  }
+                },
+                {
+                  "key": "lk.cloud_agent_id",
+                  "value": {
+                    "stringValue": "CA_sq5brpU7a8FQ"
+                  }
+                },
+                {
+                  "key": "logger.name",
+                  "value": {
+                    "stringValue": "livekit.agents"
+                  }
+                },
+                {
+                  "key": "lk.id",
+                  "value": {
+                    "stringValue": "78126b5b-e902-0632-2000-91b810e146f3"
+                  }
+                }
+              ],
+              "flags": 3,
+              "traceId": "MnyfWzqFcKl/A6REE+5azA==",
+              "spanId": "4euxI9Defnc="
+            },
+            {
+              "timeUnixNano": "1786838062422161152",
+              "observedTimeUnixNano": "1786838062422318007",
+              "severityNumber": "SEVERITY_NUMBER_INFO",
+              "severityText": "INFO",
+              "body": {
+                "stringValue": "EOU metrics"
+              },
+              "attributes": [
+                {
+                  "key": "model_name",
+                  "value": {
+                    "stringValue": "turn-detector-v1"
+                  }
+                },
+                {
+                  "key": "model_provider",
+                  "value": {
+                    "stringValue": "livekit"
+                  }
+                },
+                {
+                  "key": "end_of_utterance_delay",
+                  "value": {
+                    "doubleValue": 2.5
+                  }
+                },
+                {
+                  "key": "transcription_delay",
+                  "value": {
+                    "doubleValue": 0.41
+                  }
+                },
+                {
+                  "key": "code.file.path",
+                  "value": {
+                    "stringValue": "/opt/venv/lib/python3.11/site-packages/livekit/agents/metrics/utils.py"
+                  }
+                },
+                {
+                  "key": "code.function.name",
+                  "value": {
+                    "stringValue": "log_metrics"
+                  }
+                },
+                {
+                  "key": "code.line.number",
+                  "value": {
+                    "intValue": "80"
+                  }
+                },
+                {
+                  "key": "room_id",
+                  "value": {
+                    "stringValue": "RM_TGKuQWTiT8WZ"
+                  }
+                },
+                {
+                  "key": "job_id",
+                  "value": {
+                    "stringValue": "AJ_PRU3z3NiQa9w"
+                  }
+                },
+                {
+                  "key": "lk.agent_name",
+                  "value": {
+                    "stringValue": "aria"
+                  }
+                },
+                {
+                  "key": "lk.cloud_agent_id",
+                  "value": {
+                    "stringValue": "CA_sq5brpU7a8FQ"
+                  }
+                },
+                {
+                  "key": "logger.name",
+                  "value": {
+                    "stringValue": "livekit.agents"
+                  }
+                },
+                {
+                  "key": "lk.id",
+                  "value": {
+                    "stringValue": "135f8694-122a-985b-5d9e-87562d55c053"
+                  }
+                }
+              ],
+              "flags": 3,
+              "traceId": "MnyfWzqFcKl/A6REE+5azA==",
+              "spanId": "4euxI9Defnc="
+            }
+          ]
+        },
+        {
+          "scope": {
+            "name": "omni-aria.tools"
+          },
+          "logRecords": [
+            {
+              "timeUnixNano": "1786838064569098240",
+              "observedTimeUnixNano": "1786838064569314156",
+              "severityNumber": "SEVERITY_NUMBER_INFO",
+              "severityText": "INFO",
+              "body": {
+                "stringValue": "CALLER_INTENT=cancellation | reason=Caller wants to cancel a Scottsdale reservation, has confirmation number ABC12345, arriving this upcoming Friday"
+              },
+              "attributes": [
+                {
+                  "key": "code.file.path",
+                  "value": {
+                    "stringValue": "/app/tools.py"
+                  }
+                },
+                {
+                  "key": "code.function.name",
+                  "value": {
+                    "stringValue": "log_caller_intent"
+                  }
+                },
+                {
+                  "key": "code.line.number",
+                  "value": {
+                    "intValue": "150"
+                  }
+                },
+                {
+                  "key": "room_id",
+                  "value": {
+                    "stringValue": "RM_TGKuQWTiT8WZ"
+                  }
+                },
+                {
+                  "key": "job_id",
+                  "value": {
+                    "stringValue": "AJ_PRU3z3NiQa9w"
+                  }
+                },
+                {
+                  "key": "lk.agent_name",
+                  "value": {
+                    "stringValue": "aria"
+                  }
+                },
+                {
+                  "key": "lk.cloud_agent_id",
+                  "value": {
+                    "stringValue": "CA_sq5brpU7a8FQ"
+                  }
+                },
+                {
+                  "key": "logger.name",
+                  "value": {
+                    "stringValue": "omni-aria.tools"
+                  }
+                },
+                {
+                  "key": "lk.id",
+                  "value": {
+                    "stringValue": "06f50830-f0ee-ffe0-b512-d4829bc11b55"
+                  }
+                }
+              ],
+              "flags": 3,
+              "traceId": "MnyfWzqFcKl/A6REE+5azA==",
+              "spanId": "SNLXF8vG1qU="
+            }
+          ]
+        },
+        {
+          "scope": {
+            "name": "livekit.agents"
+          },
+          "logRecords": [
+            {
+              "timeUnixNano": "1786838064574063872",
+              "observedTimeUnixNano": "1786838064574674355",
+              "severityNumber": "SEVERITY_NUMBER_INFO",
+              "severityText": "INFO",
+              "body": {
+                "stringValue": "LLM metrics"
+              },
+              "attributes": [
+                {
+                  "key": "model_name",
+                  "value": {
+                    "stringValue": "zai-org/GLM-5.2-Fast"
+                  }
+                },
+                {
+                  "key": "model_provider",
+                  "value": {
+                    "stringValue": "inference.baseten.co"
+                  }
+                },
+                {
+                  "key": "ttft",
+                  "value": {
+                    "doubleValue": 2.14
+                  }
+                },
+                {
+                  "key": "prompt_tokens",
+                  "value": {
+                    "intValue": "15948"
+                  }
+                },
+                {
+                  "key": "prompt_cached_tokens",
+                  "value": {
+                    "intValue": "15904"
+                  }
+                },
+                {
+                  "key": "cache_creation_tokens",
+                  "value": {
+                    "intValue": "0"
+                  }
+                },
+                {
+                  "key": "completion_tokens",
+                  "value": {
+                    "intValue": "39"
+                  }
+                },
+                {
+                  "key": "tokens_per_second",
+                  "value": {
+                    "doubleValue": 18.14
+                  }
+                },
+                {
+                  "key": "code.file.path",
+                  "value": {
+                    "stringValue": "/opt/venv/lib/python3.11/site-packages/livekit/agents/metrics/utils.py"
+                  }
+                },
+                {
+                  "key": "code.function.name",
+                  "value": {
+                    "stringValue": "log_metrics"
+                  }
+                },
+                {
+                  "key": "code.line.number",
+                  "value": {
+                    "intValue": "30"
+                  }
+                },
+                {
+                  "key": "room_id",
+                  "value": {
+                    "stringValue": "RM_TGKuQWTiT8WZ"
+                  }
+                },
+                {
+                  "key": "job_id",
+                  "value": {
+                    "stringValue": "AJ_PRU3z3NiQa9w"
+                  }
+                },
+                {
+                  "key": "lk.agent_name",
+                  "value": {
+                    "stringValue": "aria"
+                  }
+                },
+                {
+                  "key": "lk.cloud_agent_id",
+                  "value": {
+                    "stringValue": "CA_sq5brpU7a8FQ"
+                  }
+                },
+                {
+                  "key": "logger.name",
+                  "value": {
+                    "stringValue": "livekit.agents"
+                  }
+                },
+                {
+                  "key": "lk.id",
+                  "value": {
+                    "stringValue": "f114acf8-bec2-2a95-66d8-8ed99eab0ef9"
+                  }
+                }
+              ],
+              "flags": 3,
+              "traceId": "MnyfWzqFcKl/A6REE+5azA==",
+              "spanId": "+1NTE8faT4o="
+            },
+            {
+              "timeUnixNano": "1786838065533151232",
+              "observedTimeUnixNano": "1786838065533353615",
+              "severityNumber": "SEVERITY_NUMBER_INFO",
+              "severityText": "INFO",
+              "body": {
+                "stringValue": "LLM metrics"
+              },
+              "attributes": [
+                {
+                  "key": "model_name",
+                  "value": {
+                    "stringValue": "zai-org/GLM-5.2-Fast"
+                  }
+                },
+                {
+                  "key": "model_provider",
+                  "value": {
+                    "stringValue": "inference.baseten.co"
+                  }
+                },
+                {
+                  "key": "ttft",
+                  "value": {
+                    "doubleValue": 0.61
+                  }
+                },
+                {
+                  "key": "prompt_tokens",
+                  "value": {
+                    "intValue": "15998"
+                  }
+                },
+                {
+                  "key": "prompt_cached_tokens",
+                  "value": {
+                    "intValue": "15936"
+                  }
+                },
+                {
+                  "key": "cache_creation_tokens",
+                  "value": {
+                    "intValue": "0"
+                  }
+                },
+                {
+                  "key": "completion_tokens",
+                  "value": {
+                    "intValue": "38"
+                  }
+                },
+                {
+                  "key": "tokens_per_second",
+                  "value": {
+                    "doubleValue": 40.08
+                  }
+                },
+                {
+                  "key": "code.file.path",
+                  "value": {
+                    "stringValue": "/opt/venv/lib/python3.11/site-packages/livekit/agents/metrics/utils.py"
+                  }
+                },
+                {
+                  "key": "code.function.name",
+                  "value": {
+                    "stringValue": "log_metrics"
+                  }
+                },
+                {
+                  "key": "code.line.number",
+                  "value": {
+                    "intValue": "30"
+                  }
+                },
+                {
+                  "key": "room_id",
+                  "value": {
+                    "stringValue": "RM_TGKuQWTiT8WZ"
+                  }
+                },
+                {
+                  "key": "job_id",
+                  "value": {
+                    "stringValue": "AJ_PRU3z3NiQa9w"
+                  }
+                },
+                {
+                  "key": "lk.agent_name",
+                  "value": {
+                    "stringValue": "aria"
+                  }
+                },
+                {
+                  "key": "lk.cloud_agent_id",
+                  "value": {
+                    "stringValue": "CA_sq5brpU7a8FQ"
+                  }
+                },
+                {
+                  "key": "logger.name",
+                  "value": {
+                    "stringValue": "livekit.agents"
+                  }
+                },
+                {
+                  "key": "lk.id",
+                  "value": {
+                    "stringValue": "a3acf142-cc55-ce6e-b0cc-994e54175b07"
+                  }
+                }
+              ],
+              "flags": 3,
+              "traceId": "MnyfWzqFcKl/A6REE+5azA==",
+              "spanId": "13SiYZtEPLI="
+            },
+            {
+              "timeUnixNano": "1786838065897430784",
+              "observedTimeUnixNano": "1786838065897586522",
+              "severityNumber": "SEVERITY_NUMBER_INFO",
+              "severityText": "INFO",
+              "body": {
+                "stringValue": "TTS metrics"
+              },
+              "attributes": [
+                {
+                  "key": "model_name",
+                  "value": {
+                    "stringValue": "eleven_turbo_v2_5"
+                  }
+                },
+                {
+                  "key": "model_provider",
+                  "value": {
+                    "stringValue": "ElevenLabs"
+                  }
+                },
+                {
+                  "key": "ttfb",
+                  "value": {
+                    "doubleValue": 0.15369118799981152
+                  }
+                },
+                {
+                  "key": "audio_duration",
+                  "value": {
+                    "doubleValue": 9.72
+                  }
+                },
+                {
+                  "key": "code.file.path",
+                  "value": {
+                    "stringValue": "/opt/venv/lib/python3.11/site-packages/livekit/agents/metrics/utils.py"
+                  }
+                },
+                {
+                  "key": "code.function.name",
+                  "value": {
+                    "stringValue": "log_metrics"
+                  }
+                },
+                {
+                  "key": "code.line.number",
+                  "value": {
+                    "intValue": "71"
+                  }
+                },
+                {
+                  "key": "room_id",
+                  "value": {
+                    "stringValue": "RM_TGKuQWTiT8WZ"
+                  }
+                },
+                {
+                  "key": "job_id",
+                  "value": {
+                    "stringValue": "AJ_PRU3z3NiQa9w"
+                  }
+                },
+                {
+                  "key": "lk.agent_name",
+                  "value": {
+                    "stringValue": "aria"
+                  }
+                },
+                {
+                  "key": "lk.cloud_agent_id",
+                  "value": {
+                    "stringValue": "CA_sq5brpU7a8FQ"
+                  }
+                },
+                {
+                  "key": "logger.name",
+                  "value": {
+                    "stringValue": "livekit.agents"
+                  }
+                },
+                {
+                  "key": "lk.id",
+                  "value": {
+                    "stringValue": "ef55c6f2-3392-6b2b-9b4a-c18bf9e6f705"
+                  }
+                }
+              ],
+              "flags": 3,
+              "traceId": "MnyfWzqFcKl/A6REE+5azA==",
+              "spanId": "BMisqePsSEM="
+            },
+            {
+              "timeUnixNano": "1786838067092457984",
+              "observedTimeUnixNano": "1786838067092632221",
+              "severityNumber": "SEVERITY_NUMBER_INFO",
+              "severityText": "INFO",
+              "body": {
+                "stringValue": "STT metrics"
+              },
+              "attributes": [
+                {
+                  "key": "model_name",
+                  "value": {
+                    "stringValue": "nova-3"
+                  }
+                },
+                {
+                  "key": "model_provider",
+                  "value": {
+                    "stringValue": "Deepgram"
+                  }
+                },
+                {
+                  "key": "audio_duration",
+                  "value": {
+                    "doubleValue": 5.05
+                  }
+                },
+                {
+                  "key": "code.file.path",
+                  "value": {
+                    "stringValue": "/opt/venv/lib/python3.11/site-packages/livekit/agents/metrics/utils.py"
+                  }
+                },
+                {
+                  "key": "code.function.name",
+                  "value": {
+                    "stringValue": "log_metrics"
+                  }
+                },
+                {
+                  "key": "code.line.number",
+                  "value": {
+                    "intValue": "89"
+                  }
+                },
+                {
+                  "key": "room_id",
+                  "value": {
+                    "stringValue": "RM_TGKuQWTiT8WZ"
+                  }
+                },
+                {
+                  "key": "job_id",
+                  "value": {
+                    "stringValue": "AJ_PRU3z3NiQa9w"
+                  }
+                },
+                {
+                  "key": "lk.agent_name",
+                  "value": {
+                    "stringValue": "aria"
+                  }
+                },
+                {
+                  "key": "lk.cloud_agent_id",
+                  "value": {
+                    "stringValue": "CA_sq5brpU7a8FQ"
+                  }
+                },
+                {
+                  "key": "logger.name",
+                  "value": {
+                    "stringValue": "livekit.agents"
+                  }
+                },
+                {
+                  "key": "lk.id",
+                  "value": {
+                    "stringValue": "18abcc1e-b504-affe-dcaf-2eade0c1022e"
+                  }
+                }
+              ],
+              "flags": 3,
+              "traceId": "MnyfWzqFcKl/A6REE+5azA==",
+              "spanId": "4euxI9Defnc="
+            },
+            {
+              "timeUnixNano": "1786838072142064896",
+              "observedTimeUnixNano": "1786838072142318021",
+              "severityNumber": "SEVERITY_NUMBER_INFO",
+              "severityText": "INFO",
+              "body": {
+                "stringValue": "STT metrics"
+              },
+              "attributes": [
+                {
+                  "key": "model_name",
+                  "value": {
+                    "stringValue": "nova-3"
+                  }
+                },
+                {
+                  "key": "model_provider",
+                  "value": {
+                    "stringValue": "Deepgram"
+                  }
+                },
+                {
+                  "key": "audio_duration",
+                  "value": {
+                    "doubleValue": 5.05
+                  }
+                },
+                {
+                  "key": "code.file.path",
+                  "value": {
+                    "stringValue": "/opt/venv/lib/python3.11/site-packages/livekit/agents/metrics/utils.py"
+                  }
+                },
+                {
+                  "key": "code.function.name",
+                  "value": {
+                    "stringValue": "log_metrics"
+                  }
+                },
+                {
+                  "key": "code.line.number",
+                  "value": {
+                    "intValue": "89"
+                  }
+                },
+                {
+                  "key": "room_id",
+                  "value": {
+                    "stringValue": "RM_TGKuQWTiT8WZ"
+                  }
+                },
+                {
+                  "key": "job_id",
+                  "value": {
+                    "stringValue": "AJ_PRU3z3NiQa9w"
+                  }
+                },
+                {
+                  "key": "lk.agent_name",
+                  "value": {
+                    "stringValue": "aria"
+                  }
+                },
+                {
+                  "key": "lk.cloud_agent_id",
+                  "value": {
+                    "stringValue": "CA_sq5brpU7a8FQ"
+                  }
+                },
+                {
+                  "key": "logger.name",
+                  "value": {
+                    "stringValue": "livekit.agents"
+                  }
+                },
+                {
+                  "key": "lk.id",
+                  "value": {
+                    "stringValue": "a05713d2-46d4-0b6f-59ec-9202665e9410"
+                  }
+                }
+              ],
+              "flags": 3,
+              "traceId": "MnyfWzqFcKl/A6REE+5azA==",
+              "spanId": "4euxI9Defnc="
+            },
+            {
+              "timeUnixNano": "1786838077142442496",
+              "observedTimeUnixNano": "1786838077142615343",
+              "severityNumber": "SEVERITY_NUMBER_INFO",
+              "severityText": "INFO",
+              "body": {
+                "stringValue": "STT metrics"
+              },
+              "attributes": [
+                {
+                  "key": "model_name",
+                  "value": {
+                    "stringValue": "nova-3"
+                  }
+                },
+                {
+                  "key": "model_provider",
+                  "value": {
+                    "stringValue": "Deepgram"
+                  }
+                },
+                {
+                  "key": "audio_duration",
+                  "value": {
+                    "doubleValue": 5
+                  }
+                },
+                {
+                  "key": "code.file.path",
+                  "value": {
+                    "stringValue": "/opt/venv/lib/python3.11/site-packages/livekit/agents/metrics/utils.py"
+                  }
+                },
+                {
+                  "key": "code.function.name",
+                  "value": {
+                    "stringValue": "log_metrics"
+                  }
+                },
+                {
+                  "key": "code.line.number",
+                  "value": {
+                    "intValue": "89"
+                  }
+                },
+                {
+                  "key": "room_id",
+                  "value": {
+                    "stringValue": "RM_TGKuQWTiT8WZ"
+                  }
+                },
+                {
+                  "key": "job_id",
+                  "value": {
+                    "stringValue": "AJ_PRU3z3NiQa9w"
+                  }
+                },
+                {
+                  "key": "lk.agent_name",
+                  "value": {
+                    "stringValue": "aria"
+                  }
+                },
+                {
+                  "key": "lk.cloud_agent_id",
+                  "value": {
+                    "stringValue": "CA_sq5brpU7a8FQ"
+                  }
+                },
+                {
+                  "key": "logger.name",
+                  "value": {
+                    "stringValue": "livekit.agents"
+                  }
+                },
+                {
+                  "key": "lk.id",
+                  "value": {
+                    "stringValue": "2f56dbae-cd78-14f1-02a3-ebe5a141835d"
+                  }
+                }
+              ],
+              "flags": 3,
+              "traceId": "MnyfWzqFcKl/A6REE+5azA==",
+              "spanId": "4euxI9Defnc="
+            },
+            {
+              "timeUnixNano": "1786838079750257664",
+              "observedTimeUnixNano": "1786838079750412377",
+              "severityNumber": "SEVERITY_NUMBER_INFO",
+              "severityText": "INFO",
+              "body": {
+                "stringValue": "LLM metrics"
+              },
+              "attributes": [
+                {
+                  "key": "model_name",
+                  "value": {
+                    "stringValue": "zai-org/GLM-5.2-Fast"
+                  }
+                },
+                {
+                  "key": "model_provider",
+                  "value": {
+                    "stringValue": "inference.baseten.co"
+                  }
+                },
+                {
+                  "key": "ttft",
+                  "value": {
+                    "doubleValue": 0.45
+                  }
+                },
+                {
+                  "key": "prompt_tokens",
+                  "value": {
+                    "intValue": "16048"
+                  }
+                },
+                {
+                  "key": "prompt_cached_tokens",
+                  "value": {
+                    "intValue": "15968"
+                  }
+                },
+                {
+                  "key": "cache_creation_tokens",
+                  "value": {
+                    "intValue": "0"
+                  }
+                },
+                {
+                  "key": "completion_tokens",
+                  "value": {
+                    "intValue": "9"
+                  }
+                },
+                {
+                  "key": "tokens_per_second",
+                  "value": {
+                    "doubleValue": 14.88
+                  }
+                },
+                {
+                  "key": "code.file.path",
+                  "value": {
+                    "stringValue": "/opt/venv/lib/python3.11/site-packages/livekit/agents/metrics/utils.py"
+                  }
+                },
+                {
+                  "key": "code.function.name",
+                  "value": {
+                    "stringValue": "log_metrics"
+                  }
+                },
+                {
+                  "key": "code.line.number",
+                  "value": {
+                    "intValue": "30"
+                  }
+                },
+                {
+                  "key": "room_id",
+                  "value": {
+                    "stringValue": "RM_TGKuQWTiT8WZ"
+                  }
+                },
+                {
+                  "key": "job_id",
+                  "value": {
+                    "stringValue": "AJ_PRU3z3NiQa9w"
+                  }
+                },
+                {
+                  "key": "lk.agent_name",
+                  "value": {
+                    "stringValue": "aria"
+                  }
+                },
+                {
+                  "key": "lk.cloud_agent_id",
+                  "value": {
+                    "stringValue": "CA_sq5brpU7a8FQ"
+                  }
+                },
+                {
+                  "key": "logger.name",
+                  "value": {
+                    "stringValue": "livekit.agents"
+                  }
+                },
+                {
+                  "key": "lk.id",
+                  "value": {
+                    "stringValue": "f75ca935-4a1d-fad1-cb15-c2e26e1a7d06"
+                  }
+                }
+              ],
+              "flags": 3,
+              "traceId": "MnyfWzqFcKl/A6REE+5azA==",
+              "spanId": "2CdM/WR1gvY="
+            },
+            {
+              "timeUnixNano": "1786838081798127360",
+              "observedTimeUnixNano": "1786838081798304920",
+              "severityNumber": "SEVERITY_NUMBER_INFO",
+              "severityText": "INFO",
+              "body": {
+                "stringValue": "LLM metrics"
+              },
+              "attributes": [
+                {
+                  "key": "model_name",
+                  "value": {
+                    "stringValue": "zai-org/GLM-5.2-Fast"
+                  }
+                },
+                {
+                  "key": "model_provider",
+                  "value": {
+                    "stringValue": "inference.baseten.co"
+                  }
+                },
+                {
+                  "key": "ttft",
+                  "value": {
+                    "doubleValue": 0.35
+                  }
+                },
+                {
+                  "key": "prompt_tokens",
+                  "value": {
+                    "intValue": "16053"
+                  }
+                },
+                {
+                  "key": "prompt_cached_tokens",
+                  "value": {
+                    "intValue": "16032"
+                  }
+                },
+                {
+                  "key": "cache_creation_tokens",
+                  "value": {
+                    "intValue": "0"
+                  }
+                },
+                {
+                  "key": "completion_tokens",
+                  "value": {
+                    "intValue": "35"
+                  }
+                },
+                {
+                  "key": "tokens_per_second",
+                  "value": {
+                    "doubleValue": 54.13
+                  }
+                },
+                {
+                  "key": "code.file.path",
+                  "value": {
+                    "stringValue": "/opt/venv/lib/python3.11/site-packages/livekit/agents/metrics/utils.py"
+                  }
+                },
+                {
+                  "key": "code.function.name",
+                  "value": {
+                    "stringValue": "log_metrics"
+                  }
+                },
+                {
+                  "key": "code.line.number",
+                  "value": {
+                    "intValue": "30"
+                  }
+                },
+                {
+                  "key": "room_id",
+                  "value": {
+                    "stringValue": "RM_TGKuQWTiT8WZ"
+                  }
+                },
+                {
+                  "key": "job_id",
+                  "value": {
+                    "stringValue": "AJ_PRU3z3NiQa9w"
+                  }
+                },
+                {
+                  "key": "lk.agent_name",
+                  "value": {
+                    "stringValue": "aria"
+                  }
+                },
+                {
+                  "key": "lk.cloud_agent_id",
+                  "value": {
+                    "stringValue": "CA_sq5brpU7a8FQ"
+                  }
+                },
+                {
+                  "key": "logger.name",
+                  "value": {
+                    "stringValue": "livekit.agents"
+                  }
+                },
+                {
+                  "key": "lk.id",
+                  "value": {
+                    "stringValue": "356fe32e-5362-ec3a-fcaf-0aa369e291ca"
+                  }
+                }
+              ],
+              "flags": 3,
+              "traceId": "MnyfWzqFcKl/A6REE+5azA==",
+              "spanId": "udZj/BsvZFo="
+            },
+            {
+              "timeUnixNano": "1786838082142809088",
+              "observedTimeUnixNano": "1786838082143053626",
+              "severityNumber": "SEVERITY_NUMBER_INFO",
+              "severityText": "INFO",
+              "body": {
+                "stringValue": "STT metrics"
+              },
+              "attributes": [
+                {
+                  "key": "model_name",
+                  "value": {
+                    "stringValue": "nova-3"
+                  }
+                },
+                {
+                  "key": "model_provider",
+                  "value": {
+                    "stringValue": "Deepgram"
+                  }
+                },
+                {
+                  "key": "audio_duration",
+                  "value": {
+                    "doubleValue": 5
+                  }
+                },
+                {
+                  "key": "code.file.path",
+                  "value": {
+                    "stringValue": "/opt/venv/lib/python3.11/site-packages/livekit/agents/metrics/utils.py"
+                  }
+                },
+                {
+                  "key": "code.function.name",
+                  "value": {
+                    "stringValue": "log_metrics"
+                  }
+                },
+                {
+                  "key": "code.line.number",
+                  "value": {
+                    "intValue": "89"
+                  }
+                },
+                {
+                  "key": "room_id",
+                  "value": {
+                    "stringValue": "RM_TGKuQWTiT8WZ"
+                  }
+                },
+                {
+                  "key": "job_id",
+                  "value": {
+                    "stringValue": "AJ_PRU3z3NiQa9w"
+                  }
+                },
+                {
+                  "key": "lk.agent_name",
+                  "value": {
+                    "stringValue": "aria"
+                  }
+                },
+                {
+                  "key": "lk.cloud_agent_id",
+                  "value": {
+                    "stringValue": "CA_sq5brpU7a8FQ"
+                  }
+                },
+                {
+                  "key": "logger.name",
+                  "value": {
+                    "stringValue": "livekit.agents"
+                  }
+                },
+                {
+                  "key": "lk.id",
+                  "value": {
+                    "stringValue": "79856a4f-e94b-14ad-066f-3561c64929be"
+                  }
+                }
+              ],
+              "flags": 3,
+              "traceId": "MnyfWzqFcKl/A6REE+5azA==",
+              "spanId": "4euxI9Defnc="
+            },
+            {
+              "timeUnixNano": "1786838083419953408",
+              "observedTimeUnixNano": "1786838083420132866",
+              "severityNumber": "SEVERITY_NUMBER_INFO",
+              "severityText": "INFO",
+              "body": {
+                "stringValue": "EOU metrics"
+              },
+              "attributes": [
+                {
+                  "key": "model_name",
+                  "value": {
+                    "stringValue": "turn-detector-v1"
+                  }
+                },
+                {
+                  "key": "model_provider",
+                  "value": {
+                    "stringValue": "livekit"
+                  }
+                },
+                {
+                  "key": "end_of_utterance_delay",
+                  "value": {
+                    "doubleValue": 2.5
+                  }
+                },
+                {
+                  "key": "transcription_delay",
+                  "value": {
+                    "doubleValue": 0.23
+                  }
+                },
+                {
+                  "key": "code.file.path",
+                  "value": {
+                    "stringValue": "/opt/venv/lib/python3.11/site-packages/livekit/agents/metrics/utils.py"
+                  }
+                },
+                {
+                  "key": "code.function.name",
+                  "value": {
+                    "stringValue": "log_metrics"
+                  }
+                },
+                {
+                  "key": "code.line.number",
+                  "value": {
+                    "intValue": "80"
+                  }
+                },
+                {
+                  "key": "room_id",
+                  "value": {
+                    "stringValue": "RM_TGKuQWTiT8WZ"
+                  }
+                },
+                {
+                  "key": "job_id",
+                  "value": {
+                    "stringValue": "AJ_PRU3z3NiQa9w"
+                  }
+                },
+                {
+                  "key": "lk.agent_name",
+                  "value": {
+                    "stringValue": "aria"
+                  }
+                },
+                {
+                  "key": "lk.cloud_agent_id",
+                  "value": {
+                    "stringValue": "CA_sq5brpU7a8FQ"
+                  }
+                },
+                {
+                  "key": "logger.name",
+                  "value": {
+                    "stringValue": "livekit.agents"
+                  }
+                },
+                {
+                  "key": "lk.id",
+                  "value": {
+                    "stringValue": "a8c25c63-0142-992e-1062-d2333ae2744f"
+                  }
+                }
+              ],
+              "flags": 3,
+              "traceId": "MnyfWzqFcKl/A6REE+5azA==",
+              "spanId": "4euxI9Defnc="
+            },
+            {
+              "timeUnixNano": "1786838083913915392",
+              "observedTimeUnixNano": "1786838083914058366",
+              "severityNumber": "SEVERITY_NUMBER_INFO",
+              "severityText": "INFO",
+              "body": {
+                "stringValue": "TTS metrics"
+              },
+              "attributes": [
+                {
+                  "key": "model_name",
+                  "value": {
+                    "stringValue": "eleven_turbo_v2_5"
+                  }
+                },
+                {
+                  "key": "model_provider",
+                  "value": {
+                    "stringValue": "ElevenLabs"
+                  }
+                },
+                {
+                  "key": "ttfb",
+                  "value": {
+                    "doubleValue": 0.1943327600001794
+                  }
+                },
+                {
+                  "key": "audio_duration",
+                  "value": {
+                    "doubleValue": 8.8
+                  }
+                },
+                {
+                  "key": "code.file.path",
+                  "value": {
+                    "stringValue": "/opt/venv/lib/python3.11/site-packages/livekit/agents/metrics/utils.py"
+                  }
+                },
+                {
+                  "key": "code.function.name",
+                  "value": {
+                    "stringValue": "log_metrics"
+                  }
+                },
+                {
+                  "key": "code.line.number",
+                  "value": {
+                    "intValue": "71"
+                  }
+                },
+                {
+                  "key": "room_id",
+                  "value": {
+                    "stringValue": "RM_TGKuQWTiT8WZ"
+                  }
+                },
+                {
+                  "key": "job_id",
+                  "value": {
+                    "stringValue": "AJ_PRU3z3NiQa9w"
+                  }
+                },
+                {
+                  "key": "lk.agent_name",
+                  "value": {
+                    "stringValue": "aria"
+                  }
+                },
+                {
+                  "key": "lk.cloud_agent_id",
+                  "value": {
+                    "stringValue": "CA_sq5brpU7a8FQ"
+                  }
+                },
+                {
+                  "key": "logger.name",
+                  "value": {
+                    "stringValue": "livekit.agents"
+                  }
+                },
+                {
+                  "key": "lk.id",
+                  "value": {
+                    "stringValue": "3431b0a6-e31c-be3e-e630-585ef47b0774"
+                  }
+                }
+              ],
+              "flags": 3,
+              "traceId": "MnyfWzqFcKl/A6REE+5azA==",
+              "spanId": "B9IK8Qe3slo="
+            },
+            {
+              "timeUnixNano": "1786838087193671168",
+              "observedTimeUnixNano": "1786838087193964283",
+              "severityNumber": "SEVERITY_NUMBER_INFO",
+              "severityText": "INFO",
+              "body": {
+                "stringValue": "STT metrics"
+              },
+              "attributes": [
+                {
+                  "key": "model_name",
+                  "value": {
+                    "stringValue": "nova-3"
+                  }
+                },
+                {
+                  "key": "model_provider",
+                  "value": {
+                    "stringValue": "Deepgram"
+                  }
+                },
+                {
+                  "key": "audio_duration",
+                  "value": {
+                    "doubleValue": 5.05
+                  }
+                },
+                {
+                  "key": "code.file.path",
+                  "value": {
+                    "stringValue": "/opt/venv/lib/python3.11/site-packages/livekit/agents/metrics/utils.py"
+                  }
+                },
+                {
+                  "key": "code.function.name",
+                  "value": {
+                    "stringValue": "log_metrics"
+                  }
+                },
+                {
+                  "key": "code.line.number",
+                  "value": {
+                    "intValue": "89"
+                  }
+                },
+                {
+                  "key": "room_id",
+                  "value": {
+                    "stringValue": "RM_TGKuQWTiT8WZ"
+                  }
+                },
+                {
+                  "key": "job_id",
+                  "value": {
+                    "stringValue": "AJ_PRU3z3NiQa9w"
+                  }
+                },
+                {
+                  "key": "lk.agent_name",
+                  "value": {
+                    "stringValue": "aria"
+                  }
+                },
+                {
+                  "key": "lk.cloud_agent_id",
+                  "value": {
+                    "stringValue": "CA_sq5brpU7a8FQ"
+                  }
+                },
+                {
+                  "key": "logger.name",
+                  "value": {
+                    "stringValue": "livekit.agents"
+                  }
+                },
+                {
+                  "key": "lk.id",
+                  "value": {
+                    "stringValue": "306d7dd0-fd5b-d21a-4b74-6164fc086434"
+                  }
+                }
+              ],
+              "flags": 3,
+              "traceId": "MnyfWzqFcKl/A6REE+5azA==",
+              "spanId": "4euxI9Defnc="
+            },
+            {
+              "timeUnixNano": "1786838092194036224",
+              "observedTimeUnixNano": "1786838092194195121",
+              "severityNumber": "SEVERITY_NUMBER_INFO",
+              "severityText": "INFO",
+              "body": {
+                "stringValue": "STT metrics"
+              },
+              "attributes": [
+                {
+                  "key": "model_name",
+                  "value": {
+                    "stringValue": "nova-3"
+                  }
+                },
+                {
+                  "key": "model_provider",
+                  "value": {
+                    "stringValue": "Deepgram"
+                  }
+                },
+                {
+                  "key": "audio_duration",
+                  "value": {
+                    "doubleValue": 5
+                  }
+                },
+                {
+                  "key": "code.file.path",
+                  "value": {
+                    "stringValue": "/opt/venv/lib/python3.11/site-packages/livekit/agents/metrics/utils.py"
+                  }
+                },
+                {
+                  "key": "code.function.name",
+                  "value": {
+                    "stringValue": "log_metrics"
+                  }
+                },
+                {
+                  "key": "code.line.number",
+                  "value": {
+                    "intValue": "89"
+                  }
+                },
+                {
+                  "key": "room_id",
+                  "value": {
+                    "stringValue": "RM_TGKuQWTiT8WZ"
+                  }
+                },
+                {
+                  "key": "job_id",
+                  "value": {
+                    "stringValue": "AJ_PRU3z3NiQa9w"
+                  }
+                },
+                {
+                  "key": "lk.agent_name",
+                  "value": {
+                    "stringValue": "aria"
+                  }
+                },
+                {
+                  "key": "lk.cloud_agent_id",
+                  "value": {
+                    "stringValue": "CA_sq5brpU7a8FQ"
+                  }
+                },
+                {
+                  "key": "logger.name",
+                  "value": {
+                    "stringValue": "livekit.agents"
+                  }
+                },
+                {
+                  "key": "lk.id",
+                  "value": {
+                    "stringValue": "87905b39-81aa-0aeb-5268-10a0adabc2de"
+                  }
+                }
+              ],
+              "flags": 3,
+              "traceId": "MnyfWzqFcKl/A6REE+5azA==",
+              "spanId": "4euxI9Defnc="
+            },
+            {
+              "timeUnixNano": "1786838095062134272",
+              "observedTimeUnixNano": "1786838095062391775",
+              "severityNumber": "SEVERITY_NUMBER_INFO",
+              "severityText": "INFO",
+              "body": {
+                "stringValue": "EOU metrics"
+              },
+              "attributes": [
+                {
+                  "key": "model_name",
+                  "value": {
+                    "stringValue": "turn-detector-v1"
+                  }
+                },
+                {
+                  "key": "model_provider",
+                  "value": {
+                    "stringValue": "livekit"
+                  }
+                },
+                {
+                  "key": "end_of_utterance_delay",
+                  "value": {
+                    "doubleValue": 0.89
+                  }
+                },
+                {
+                  "key": "transcription_delay",
+                  "value": {
+                    "doubleValue": 0.87
+                  }
+                },
+                {
+                  "key": "code.file.path",
+                  "value": {
+                    "stringValue": "/opt/venv/lib/python3.11/site-packages/livekit/agents/metrics/utils.py"
+                  }
+                },
+                {
+                  "key": "code.function.name",
+                  "value": {
+                    "stringValue": "log_metrics"
+                  }
+                },
+                {
+                  "key": "code.line.number",
+                  "value": {
+                    "intValue": "80"
+                  }
+                },
+                {
+                  "key": "room_id",
+                  "value": {
+                    "stringValue": "RM_TGKuQWTiT8WZ"
+                  }
+                },
+                {
+                  "key": "job_id",
+                  "value": {
+                    "stringValue": "AJ_PRU3z3NiQa9w"
+                  }
+                },
+                {
+                  "key": "lk.agent_name",
+                  "value": {
+                    "stringValue": "aria"
+                  }
+                },
+                {
+                  "key": "lk.cloud_agent_id",
+                  "value": {
+                    "stringValue": "CA_sq5brpU7a8FQ"
+                  }
+                },
+                {
+                  "key": "logger.name",
+                  "value": {
+                    "stringValue": "livekit.agents"
+                  }
+                },
+                {
+                  "key": "lk.id",
+                  "value": {
+                    "stringValue": "641b480d-d0c0-103a-9e99-a1c2f854ce38"
+                  }
+                }
+              ],
+              "flags": 3,
+              "traceId": "MnyfWzqFcKl/A6REE+5azA==",
+              "spanId": "4euxI9Defnc="
+            }
+          ]
+        },
+        {
+          "scope": {
+            "name": "omni-aria.tools"
+          },
+          "logRecords": [
+            {
+              "timeUnixNano": "1786838096115588608",
+              "observedTimeUnixNano": "1786838096115784073",
+              "severityNumber": "SEVERITY_NUMBER_INFO",
+              "severityText": "INFO",
+              "body": {
+                "stringValue": "verify_date: {'iso_date': '2026-08-21', 'actual_weekday': 'Friday', 'claimed_weekday': 'Friday', 'matches_claim': True, 'is_past': False, 'is_far_future': False, 'days_from_today': 6}"
+              },
+              "attributes": [
+                {
+                  "key": "code.file.path",
+                  "value": {
+                    "stringValue": "/app/tools.py"
+                  }
+                },
+                {
+                  "key": "code.function.name",
+                  "value": {
+                    "stringValue": "verify_date"
+                  }
+                },
+                {
+                  "key": "code.line.number",
+                  "value": {
+                    "intValue": "113"
+                  }
+                },
+                {
+                  "key": "room_id",
+                  "value": {
+                    "stringValue": "RM_TGKuQWTiT8WZ"
+                  }
+                },
+                {
+                  "key": "job_id",
+                  "value": {
+                    "stringValue": "AJ_PRU3z3NiQa9w"
+                  }
+                },
+                {
+                  "key": "lk.agent_name",
+                  "value": {
+                    "stringValue": "aria"
+                  }
+                },
+                {
+                  "key": "lk.cloud_agent_id",
+                  "value": {
+                    "stringValue": "CA_sq5brpU7a8FQ"
+                  }
+                },
+                {
+                  "key": "logger.name",
+                  "value": {
+                    "stringValue": "omni-aria.tools"
+                  }
+                },
+                {
+                  "key": "lk.id",
+                  "value": {
+                    "stringValue": "18de9d2a-80b4-9708-e382-f0238d77fd9c"
+                  }
+                }
+              ],
+              "flags": 3,
+              "traceId": "MnyfWzqFcKl/A6REE+5azA==",
+              "spanId": "pJSxH5Rr3nE="
+            }
+          ]
+        },
+        {
+          "scope": {
+            "name": "livekit.agents"
+          },
+          "logRecords": [
+            {
+              "timeUnixNano": "1786838096120125184",
+              "observedTimeUnixNano": "1786838096120337141",
+              "severityNumber": "SEVERITY_NUMBER_INFO",
+              "severityText": "INFO",
+              "body": {
+                "stringValue": "LLM metrics"
+              },
+              "attributes": [
+                {
+                  "key": "model_name",
+                  "value": {
+                    "stringValue": "zai-org/GLM-5.2-Fast"
+                  }
+                },
+                {
+                  "key": "model_provider",
+                  "value": {
+                    "stringValue": "inference.baseten.co"
+                  }
+                },
+                {
+                  "key": "ttft",
+                  "value": {
+                    "doubleValue": 1.07
+                  }
+                },
+                {
+                  "key": "prompt_tokens",
+                  "value": {
+                    "intValue": "16098"
+                  }
+                },
+                {
+                  "key": "prompt_cached_tokens",
+                  "value": {
+                    "intValue": "16032"
+                  }
+                },
+                {
+                  "key": "cache_creation_tokens",
+                  "value": {
+                    "intValue": "0"
+                  }
+                },
+                {
+                  "key": "completion_tokens",
+                  "value": {
+                    "intValue": "24"
+                  }
+                },
+                {
+                  "key": "tokens_per_second",
+                  "value": {
+                    "doubleValue": 22.28
+                  }
+                },
+                {
+                  "key": "code.file.path",
+                  "value": {
+                    "stringValue": "/opt/venv/lib/python3.11/site-packages/livekit/agents/metrics/utils.py"
+                  }
+                },
+                {
+                  "key": "code.function.name",
+                  "value": {
+                    "stringValue": "log_metrics"
+                  }
+                },
+                {
+                  "key": "code.line.number",
+                  "value": {
+                    "intValue": "30"
+                  }
+                },
+                {
+                  "key": "room_id",
+                  "value": {
+                    "stringValue": "RM_TGKuQWTiT8WZ"
+                  }
+                },
+                {
+                  "key": "job_id",
+                  "value": {
+                    "stringValue": "AJ_PRU3z3NiQa9w"
+                  }
+                },
+                {
+                  "key": "lk.agent_name",
+                  "value": {
+                    "stringValue": "aria"
+                  }
+                },
+                {
+                  "key": "lk.cloud_agent_id",
+                  "value": {
+                    "stringValue": "CA_sq5brpU7a8FQ"
+                  }
+                },
+                {
+                  "key": "logger.name",
+                  "value": {
+                    "stringValue": "livekit.agents"
+                  }
+                },
+                {
+                  "key": "lk.id",
+                  "value": {
+                    "stringValue": "cb4f16f5-75e3-7344-213c-c968eb42870e"
+                  }
+                }
+              ],
+              "flags": 3,
+              "traceId": "MnyfWzqFcKl/A6REE+5azA==",
+              "spanId": "/XHvCGuoOb8="
+            },
+            {
+              "timeUnixNano": "1786838097196766720",
+              "observedTimeUnixNano": "1786838097197071748",
+              "severityNumber": "SEVERITY_NUMBER_INFO",
+              "severityText": "INFO",
+              "body": {
+                "stringValue": "STT metrics"
+              },
+              "attributes": [
+                {
+                  "key": "model_name",
+                  "value": {
+                    "stringValue": "nova-3"
+                  }
+                },
+                {
+                  "key": "model_provider",
+                  "value": {
+                    "stringValue": "Deepgram"
+                  }
+                },
+                {
+                  "key": "audio_duration",
+                  "value": {
+                    "doubleValue": 5
+                  }
+                },
+                {
+                  "key": "code.file.path",
+                  "value": {
+                    "stringValue": "/opt/venv/lib/python3.11/site-packages/livekit/agents/metrics/utils.py"
+                  }
+                },
+                {
+                  "key": "code.function.name",
+                  "value": {
+                    "stringValue": "log_metrics"
+                  }
+                },
+                {
+                  "key": "code.line.number",
+                  "value": {
+                    "intValue": "89"
+                  }
+                },
+                {
+                  "key": "room_id",
+                  "value": {
+                    "stringValue": "RM_TGKuQWTiT8WZ"
+                  }
+                },
+                {
+                  "key": "job_id",
+                  "value": {
+                    "stringValue": "AJ_PRU3z3NiQa9w"
+                  }
+                },
+                {
+                  "key": "lk.agent_name",
+                  "value": {
+                    "stringValue": "aria"
+                  }
+                },
+                {
+                  "key": "lk.cloud_agent_id",
+                  "value": {
+                    "stringValue": "CA_sq5brpU7a8FQ"
+                  }
+                },
+                {
+                  "key": "logger.name",
+                  "value": {
+                    "stringValue": "livekit.agents"
+                  }
+                },
+                {
+                  "key": "lk.id",
+                  "value": {
+                    "stringValue": "d42e8de9-d36e-76ea-1d15-c06eabfd4e81"
+                  }
+                }
+              ],
+              "flags": 3,
+              "traceId": "MnyfWzqFcKl/A6REE+5azA==",
+              "spanId": "4euxI9Defnc="
+            },
+            {
+              "timeUnixNano": "1786838097500182528",
+              "observedTimeUnixNano": "1786838097500445872",
+              "severityNumber": "SEVERITY_NUMBER_INFO",
+              "severityText": "INFO",
+              "body": {
+                "stringValue": "LLM metrics"
+              },
+              "attributes": [
+                {
+                  "key": "model_name",
+                  "value": {
+                    "stringValue": "zai-org/GLM-5.2-Fast"
+                  }
+                },
+                {
+                  "key": "model_provider",
+                  "value": {
+                    "stringValue": "inference.baseten.co"
+                  }
+                },
+                {
+                  "key": "ttft",
+                  "value": {
+                    "doubleValue": 0.66
+                  }
+                },
+                {
+                  "key": "prompt_tokens",
+                  "value": {
+                    "intValue": "16183"
+                  }
+                },
+                {
+                  "key": "prompt_cached_tokens",
+                  "value": {
+                    "intValue": "16096"
+                  }
+                },
+                {
+                  "key": "cache_creation_tokens",
+                  "value": {
+                    "intValue": "0"
+                  }
+                },
+                {
+                  "key": "completion_tokens",
+                  "value": {
+                    "intValue": "91"
+                  }
+                },
+                {
+                  "key": "tokens_per_second",
+                  "value": {
+                    "doubleValue": 66.28
+                  }
+                },
+                {
+                  "key": "code.file.path",
+                  "value": {
+                    "stringValue": "/opt/venv/lib/python3.11/site-packages/livekit/agents/metrics/utils.py"
+                  }
+                },
+                {
+                  "key": "code.function.name",
+                  "value": {
+                    "stringValue": "log_metrics"
+                  }
+                },
+                {
+                  "key": "code.line.number",
+                  "value": {
+                    "intValue": "30"
+                  }
+                },
+                {
+                  "key": "room_id",
+                  "value": {
+                    "stringValue": "RM_TGKuQWTiT8WZ"
+                  }
+                },
+                {
+                  "key": "job_id",
+                  "value": {
+                    "stringValue": "AJ_PRU3z3NiQa9w"
+                  }
+                },
+                {
+                  "key": "lk.agent_name",
+                  "value": {
+                    "stringValue": "aria"
+                  }
+                },
+                {
+                  "key": "lk.cloud_agent_id",
+                  "value": {
+                    "stringValue": "CA_sq5brpU7a8FQ"
+                  }
+                },
+                {
+                  "key": "logger.name",
+                  "value": {
+                    "stringValue": "livekit.agents"
+                  }
+                },
+                {
+                  "key": "lk.id",
+                  "value": {
+                    "stringValue": "4d6de6a8-f594-7961-0faa-1b8a6400ad13"
+                  }
+                }
+              ],
+              "flags": 3,
+              "traceId": "MnyfWzqFcKl/A6REE+5azA==",
+              "spanId": "YSBq0VgkNKA="
+            },
+            {
+              "timeUnixNano": "1786838098239883264",
+              "observedTimeUnixNano": "1786838098240082692",
+              "severityNumber": "SEVERITY_NUMBER_INFO",
+              "severityText": "INFO",
+              "body": {
+                "stringValue": "TTS metrics"
+              },
+              "attributes": [
+                {
+                  "key": "model_name",
+                  "value": {
+                    "stringValue": "eleven_turbo_v2_5"
+                  }
+                },
+                {
+                  "key": "model_provider",
+                  "value": {
+                    "stringValue": "ElevenLabs"
+                  }
+                },
+                {
+                  "key": "ttfb",
+                  "value": {
+                    "doubleValue": 0.17306778000011036
+                  }
+                },
+                {
+                  "key": "audio_duration",
+                  "value": {
+                    "doubleValue": 24.82
+                  }
+                },
+                {
+                  "key": "code.file.path",
+                  "value": {
+                    "stringValue": "/opt/venv/lib/python3.11/site-packages/livekit/agents/metrics/utils.py"
+                  }
+                },
+                {
+                  "key": "code.function.name",
+                  "value": {
+                    "stringValue": "log_metrics"
+                  }
+                },
+                {
+                  "key": "code.line.number",
+                  "value": {
+                    "intValue": "71"
+                  }
+                },
+                {
+                  "key": "room_id",
+                  "value": {
+                    "stringValue": "RM_TGKuQWTiT8WZ"
+                  }
+                },
+                {
+                  "key": "job_id",
+                  "value": {
+                    "stringValue": "AJ_PRU3z3NiQa9w"
+                  }
+                },
+                {
+                  "key": "lk.agent_name",
+                  "value": {
+                    "stringValue": "aria"
+                  }
+                },
+                {
+                  "key": "lk.cloud_agent_id",
+                  "value": {
+                    "stringValue": "CA_sq5brpU7a8FQ"
+                  }
+                },
+                {
+                  "key": "logger.name",
+                  "value": {
+                    "stringValue": "livekit.agents"
+                  }
+                },
+                {
+                  "key": "lk.id",
+                  "value": {
+                    "stringValue": "2fded467-157f-5e65-9c7d-1fe1edcf737b"
+                  }
+                }
+              ],
+              "flags": 3,
+              "traceId": "MnyfWzqFcKl/A6REE+5azA==",
+              "spanId": "/pSH03mw5bg="
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "resource": {
+        "attributes": [
+          {
+            "key": "telemetry.sdk.language",
+            "value": {
+              "stringValue": "python"
+            }
+          },
+          {
+            "key": "telemetry.sdk.name",
+            "value": {
+              "stringValue": "opentelemetry"
+            }
+          },
+          {
+            "key": "telemetry.sdk.version",
+            "value": {
+              "stringValue": "1.44.0"
+            }
+          },
+          {
+            "key": "service.instance.id",
+            "value": {
+              "stringValue": "918b152d-8d2c-49cf-918e-51e175a5b44d"
+            }
+          },
+          {
+            "key": "service.name",
+            "value": {
+              "stringValue": "unknown_service"
+            }
+          }
+        ]
+      },
+      "scopeLogs": [
+        {
+          "scope": {
+            "name": "livekit.agents"
+          },
+          "logRecords": [
+            {
+              "timeUnixNano": "1786838102241730560",
+              "observedTimeUnixNano": "1786838102241943262",
+              "severityNumber": "SEVERITY_NUMBER_INFO",
+              "severityText": "INFO",
+              "body": {
+                "stringValue": "STT metrics"
+              },
+              "attributes": [
+                {
+                  "key": "model_name",
+                  "value": {
+                    "stringValue": "nova-3"
+                  }
+                },
+                {
+                  "key": "model_provider",
+                  "value": {
+                    "stringValue": "Deepgram"
+                  }
+                },
+                {
+                  "key": "audio_duration",
+                  "value": {
+                    "doubleValue": 5.05
+                  }
+                },
+                {
+                  "key": "code.file.path",
+                  "value": {
+                    "stringValue": "/opt/venv/lib/python3.11/site-packages/livekit/agents/metrics/utils.py"
+                  }
+                },
+                {
+                  "key": "code.function.name",
+                  "value": {
+                    "stringValue": "log_metrics"
+                  }
+                },
+                {
+                  "key": "code.line.number",
+                  "value": {
+                    "intValue": "89"
+                  }
+                },
+                {
+                  "key": "room_id",
+                  "value": {
+                    "stringValue": "RM_TGKuQWTiT8WZ"
+                  }
+                },
+                {
+                  "key": "job_id",
+                  "value": {
+                    "stringValue": "AJ_PRU3z3NiQa9w"
+                  }
+                },
+                {
+                  "key": "lk.agent_name",
+                  "value": {
+                    "stringValue": "aria"
+                  }
+                },
+                {
+                  "key": "lk.cloud_agent_id",
+                  "value": {
+                    "stringValue": "CA_sq5brpU7a8FQ"
+                  }
+                },
+                {
+                  "key": "logger.name",
+                  "value": {
+                    "stringValue": "livekit.agents"
+                  }
+                },
+                {
+                  "key": "lk.id",
+                  "value": {
+                    "stringValue": "d4fe0a9c-98b1-ffae-f66c-88fa9772051d"
+                  }
+                }
+              ],
+              "flags": 3,
+              "traceId": "MnyfWzqFcKl/A6REE+5azA==",
+              "spanId": "4euxI9Defnc="
+            },
+            {
+              "timeUnixNano": "1786838107244860416",
+              "observedTimeUnixNano": "1786838107245069265",
+              "severityNumber": "SEVERITY_NUMBER_INFO",
+              "severityText": "INFO",
+              "body": {
+                "stringValue": "STT metrics"
+              },
+              "attributes": [
+                {
+                  "key": "model_name",
+                  "value": {
+                    "stringValue": "nova-3"
+                  }
+                },
+                {
+                  "key": "model_provider",
+                  "value": {
+                    "stringValue": "Deepgram"
+                  }
+                },
+                {
+                  "key": "audio_duration",
+                  "value": {
+                    "doubleValue": 5
+                  }
+                },
+                {
+                  "key": "code.file.path",
+                  "value": {
+                    "stringValue": "/opt/venv/lib/python3.11/site-packages/livekit/agents/metrics/utils.py"
+                  }
+                },
+                {
+                  "key": "code.function.name",
+                  "value": {
+                    "stringValue": "log_metrics"
+                  }
+                },
+                {
+                  "key": "code.line.number",
+                  "value": {
+                    "intValue": "89"
+                  }
+                },
+                {
+                  "key": "room_id",
+                  "value": {
+                    "stringValue": "RM_TGKuQWTiT8WZ"
+                  }
+                },
+                {
+                  "key": "job_id",
+                  "value": {
+                    "stringValue": "AJ_PRU3z3NiQa9w"
+                  }
+                },
+                {
+                  "key": "lk.agent_name",
+                  "value": {
+                    "stringValue": "aria"
+                  }
+                },
+                {
+                  "key": "lk.cloud_agent_id",
+                  "value": {
+                    "stringValue": "CA_sq5brpU7a8FQ"
+                  }
+                },
+                {
+                  "key": "logger.name",
+                  "value": {
+                    "stringValue": "livekit.agents"
+                  }
+                },
+                {
+                  "key": "lk.id",
+                  "value": {
+                    "stringValue": "d79a7bcf-c9e0-7cef-b99e-b8952b818dc0"
+                  }
+                }
+              ],
+              "flags": 3,
+              "traceId": "MnyfWzqFcKl/A6REE+5azA==",
+              "spanId": "4euxI9Defnc="
+            },
+            {
+              "timeUnixNano": "1786838112293866496",
+              "observedTimeUnixNano": "1786838112294050306",
+              "severityNumber": "SEVERITY_NUMBER_INFO",
+              "severityText": "INFO",
+              "body": {
+                "stringValue": "STT metrics"
+              },
+              "attributes": [
+                {
+                  "key": "model_name",
+                  "value": {
+                    "stringValue": "nova-3"
+                  }
+                },
+                {
+                  "key": "model_provider",
+                  "value": {
+                    "stringValue": "Deepgram"
+                  }
+                },
+                {
+                  "key": "audio_duration",
+                  "value": {
+                    "doubleValue": 5.05
+                  }
+                },
+                {
+                  "key": "code.file.path",
+                  "value": {
+                    "stringValue": "/opt/venv/lib/python3.11/site-packages/livekit/agents/metrics/utils.py"
+                  }
+                },
+                {
+                  "key": "code.function.name",
+                  "value": {
+                    "stringValue": "log_metrics"
+                  }
+                },
+                {
+                  "key": "code.line.number",
+                  "value": {
+                    "intValue": "89"
+                  }
+                },
+                {
+                  "key": "room_id",
+                  "value": {
+                    "stringValue": "RM_TGKuQWTiT8WZ"
+                  }
+                },
+                {
+                  "key": "job_id",
+                  "value": {
+                    "stringValue": "AJ_PRU3z3NiQa9w"
+                  }
+                },
+                {
+                  "key": "lk.agent_name",
+                  "value": {
+                    "stringValue": "aria"
+                  }
+                },
+                {
+                  "key": "lk.cloud_agent_id",
+                  "value": {
+                    "stringValue": "CA_sq5brpU7a8FQ"
+                  }
+                },
+                {
+                  "key": "logger.name",
+                  "value": {
+                    "stringValue": "livekit.agents"
+                  }
+                },
+                {
+                  "key": "lk.id",
+                  "value": {
+                    "stringValue": "609dccd8-0e85-ea35-14ed-cecbf5fdabc2"
+                  }
+                }
+              ],
+              "flags": 3,
+              "traceId": "MnyfWzqFcKl/A6REE+5azA==",
+              "spanId": "4euxI9Defnc="
+            },
+            {
+              "timeUnixNano": "1786838117342266624",
+              "observedTimeUnixNano": "1786838117342491303",
+              "severityNumber": "SEVERITY_NUMBER_INFO",
+              "severityText": "INFO",
+              "body": {
+                "stringValue": "STT metrics"
+              },
+              "attributes": [
+                {
+                  "key": "model_name",
+                  "value": {
+                    "stringValue": "nova-3"
+                  }
+                },
+                {
+                  "key": "model_provider",
+                  "value": {
+                    "stringValue": "Deepgram"
+                  }
+                },
+                {
+                  "key": "audio_duration",
+                  "value": {
+                    "doubleValue": 5.05
+                  }
+                },
+                {
+                  "key": "code.file.path",
+                  "value": {
+                    "stringValue": "/opt/venv/lib/python3.11/site-packages/livekit/agents/metrics/utils.py"
+                  }
+                },
+                {
+                  "key": "code.function.name",
+                  "value": {
+                    "stringValue": "log_metrics"
+                  }
+                },
+                {
+                  "key": "code.line.number",
+                  "value": {
+                    "intValue": "89"
+                  }
+                },
+                {
+                  "key": "room_id",
+                  "value": {
+                    "stringValue": "RM_TGKuQWTiT8WZ"
+                  }
+                },
+                {
+                  "key": "job_id",
+                  "value": {
+                    "stringValue": "AJ_PRU3z3NiQa9w"
+                  }
+                },
+                {
+                  "key": "lk.agent_name",
+                  "value": {
+                    "stringValue": "aria"
+                  }
+                },
+                {
+                  "key": "lk.cloud_agent_id",
+                  "value": {
+                    "stringValue": "CA_sq5brpU7a8FQ"
+                  }
+                },
+                {
+                  "key": "logger.name",
+                  "value": {
+                    "stringValue": "livekit.agents"
+                  }
+                },
+                {
+                  "key": "lk.id",
+                  "value": {
+                    "stringValue": "987744fa-aaee-8847-0927-273231975814"
+                  }
+                }
+              ],
+              "flags": 3,
+              "traceId": "MnyfWzqFcKl/A6REE+5azA==",
+              "spanId": "4euxI9Defnc="
+            },
+            {
+              "timeUnixNano": "1786838122342338048",
+              "observedTimeUnixNano": "1786838122342538010",
+              "severityNumber": "SEVERITY_NUMBER_INFO",
+              "severityText": "INFO",
+              "body": {
+                "stringValue": "STT metrics"
+              },
+              "attributes": [
+                {
+                  "key": "model_name",
+                  "value": {
+                    "stringValue": "nova-3"
+                  }
+                },
+                {
+                  "key": "model_provider",
+                  "value": {
+                    "stringValue": "Deepgram"
+                  }
+                },
+                {
+                  "key": "audio_duration",
+                  "value": {
+                    "doubleValue": 5
+                  }
+                },
+                {
+                  "key": "code.file.path",
+                  "value": {
+                    "stringValue": "/opt/venv/lib/python3.11/site-packages/livekit/agents/metrics/utils.py"
+                  }
+                },
+                {
+                  "key": "code.function.name",
+                  "value": {
+                    "stringValue": "log_metrics"
+                  }
+                },
+                {
+                  "key": "code.line.number",
+                  "value": {
+                    "intValue": "89"
+                  }
+                },
+                {
+                  "key": "room_id",
+                  "value": {
+                    "stringValue": "RM_TGKuQWTiT8WZ"
+                  }
+                },
+                {
+                  "key": "job_id",
+                  "value": {
+                    "stringValue": "AJ_PRU3z3NiQa9w"
+                  }
+                },
+                {
+                  "key": "lk.agent_name",
+                  "value": {
+                    "stringValue": "aria"
+                  }
+                },
+                {
+                  "key": "lk.cloud_agent_id",
+                  "value": {
+                    "stringValue": "CA_sq5brpU7a8FQ"
+                  }
+                },
+                {
+                  "key": "logger.name",
+                  "value": {
+                    "stringValue": "livekit.agents"
+                  }
+                },
+                {
+                  "key": "lk.id",
+                  "value": {
+                    "stringValue": "b26c14aa-5564-e449-7f1c-64fee874bbc9"
+                  }
+                }
+              ],
+              "flags": 3,
+              "traceId": "MnyfWzqFcKl/A6REE+5azA==",
+              "spanId": "4euxI9Defnc="
+            },
+            {
+              "timeUnixNano": "1786838126757098752",
+              "observedTimeUnixNano": "1786838126757267753",
+              "severityNumber": "SEVERITY_NUMBER_INFO",
+              "severityText": "INFO",
+              "body": {
+                "stringValue": "LLM metrics"
+              },
+              "attributes": [
+                {
+                  "key": "model_name",
+                  "value": {
+                    "stringValue": "zai-org/GLM-5.2-Fast"
+                  }
+                },
+                {
+                  "key": "model_provider",
+                  "value": {
+                    "stringValue": "inference.baseten.co"
+                  }
+                },
+                {
+                  "key": "ttft",
+                  "value": {
+                    "doubleValue": 0.34
+                  }
+                },
+                {
+                  "key": "prompt_tokens",
+                  "value": {
+                    "intValue": "16286"
+                  }
+                },
+                {
+                  "key": "prompt_cached_tokens",
+                  "value": {
+                    "intValue": "16160"
+                  }
+                },
+                {
+                  "key": "cache_creation_tokens",
+                  "value": {
+                    "intValue": "0"
+                  }
+                },
+                {
+                  "key": "completion_tokens",
+                  "value": {
+                    "intValue": "24"
+                  }
+                },
+                {
+                  "key": "tokens_per_second",
+                  "value": {
+                    "doubleValue": 36.99
+                  }
+                },
+                {
+                  "key": "code.file.path",
+                  "value": {
+                    "stringValue": "/opt/venv/lib/python3.11/site-packages/livekit/agents/metrics/utils.py"
+                  }
+                },
+                {
+                  "key": "code.function.name",
+                  "value": {
+                    "stringValue": "log_metrics"
+                  }
+                },
+                {
+                  "key": "code.line.number",
+                  "value": {
+                    "intValue": "30"
+                  }
+                },
+                {
+                  "key": "room_id",
+                  "value": {
+                    "stringValue": "RM_TGKuQWTiT8WZ"
+                  }
+                },
+                {
+                  "key": "job_id",
+                  "value": {
+                    "stringValue": "AJ_PRU3z3NiQa9w"
+                  }
+                },
+                {
+                  "key": "lk.agent_name",
+                  "value": {
+                    "stringValue": "aria"
+                  }
+                },
+                {
+                  "key": "lk.cloud_agent_id",
+                  "value": {
+                    "stringValue": "CA_sq5brpU7a8FQ"
+                  }
+                },
+                {
+                  "key": "logger.name",
+                  "value": {
+                    "stringValue": "livekit.agents"
+                  }
+                },
+                {
+                  "key": "lk.id",
+                  "value": {
+                    "stringValue": "fcdec879-2b04-a1f4-331a-e248d4091166"
+                  }
+                }
+              ],
+              "flags": 3,
+              "traceId": "MnyfWzqFcKl/A6REE+5azA==",
+              "spanId": "8PcNMywF4wE="
+            },
+            {
+              "timeUnixNano": "1786838127342914048",
+              "observedTimeUnixNano": "1786838127343185652",
+              "severityNumber": "SEVERITY_NUMBER_INFO",
+              "severityText": "INFO",
+              "body": {
+                "stringValue": "STT metrics"
+              },
+              "attributes": [
+                {
+                  "key": "model_name",
+                  "value": {
+                    "stringValue": "nova-3"
+                  }
+                },
+                {
+                  "key": "model_provider",
+                  "value": {
+                    "stringValue": "Deepgram"
+                  }
+                },
+                {
+                  "key": "audio_duration",
+                  "value": {
+                    "doubleValue": 5
+                  }
+                },
+                {
+                  "key": "code.file.path",
+                  "value": {
+                    "stringValue": "/opt/venv/lib/python3.11/site-packages/livekit/agents/metrics/utils.py"
+                  }
+                },
+                {
+                  "key": "code.function.name",
+                  "value": {
+                    "stringValue": "log_metrics"
+                  }
+                },
+                {
+                  "key": "code.line.number",
+                  "value": {
+                    "intValue": "89"
+                  }
+                },
+                {
+                  "key": "room_id",
+                  "value": {
+                    "stringValue": "RM_TGKuQWTiT8WZ"
+                  }
+                },
+                {
+                  "key": "job_id",
+                  "value": {
+                    "stringValue": "AJ_PRU3z3NiQa9w"
+                  }
+                },
+                {
+                  "key": "lk.agent_name",
+                  "value": {
+                    "stringValue": "aria"
+                  }
+                },
+                {
+                  "key": "lk.cloud_agent_id",
+                  "value": {
+                    "stringValue": "CA_sq5brpU7a8FQ"
+                  }
+                },
+                {
+                  "key": "logger.name",
+                  "value": {
+                    "stringValue": "livekit.agents"
+                  }
+                },
+                {
+                  "key": "lk.id",
+                  "value": {
+                    "stringValue": "584024e8-9bdd-664f-5320-c5366eac95a1"
+                  }
+                }
+              ],
+              "flags": 3,
+              "traceId": "MnyfWzqFcKl/A6REE+5azA==",
+              "spanId": "4euxI9Defnc="
+            },
+            {
+              "timeUnixNano": "1786838130295545600",
+              "observedTimeUnixNano": "1786838130295915464",
+              "severityNumber": "SEVERITY_NUMBER_INFO",
+              "severityText": "INFO",
+              "body": {
+                "stringValue": "EOU metrics"
+              },
+              "attributes": [
+                {
+                  "key": "model_name",
+                  "value": {
+                    "stringValue": "turn-detector-v1"
+                  }
+                },
+                {
+                  "key": "model_provider",
+                  "value": {
+                    "stringValue": "livekit"
+                  }
+                },
+                {
+                  "key": "end_of_utterance_delay",
+                  "value": {
+                    "doubleValue": 0.58
+                  }
+                },
+                {
+                  "key": "transcription_delay",
+                  "value": {
+                    "doubleValue": 0.1
+                  }
+                },
+                {
+                  "key": "code.file.path",
+                  "value": {
+                    "stringValue": "/opt/venv/lib/python3.11/site-packages/livekit/agents/metrics/utils.py"
+                  }
+                },
+                {
+                  "key": "code.function.name",
+                  "value": {
+                    "stringValue": "log_metrics"
+                  }
+                },
+                {
+                  "key": "code.line.number",
+                  "value": {
+                    "intValue": "80"
+                  }
+                },
+                {
+                  "key": "room_id",
+                  "value": {
+                    "stringValue": "RM_TGKuQWTiT8WZ"
+                  }
+                },
+                {
+                  "key": "job_id",
+                  "value": {
+                    "stringValue": "AJ_PRU3z3NiQa9w"
+                  }
+                },
+                {
+                  "key": "lk.agent_name",
+                  "value": {
+                    "stringValue": "aria"
+                  }
+                },
+                {
+                  "key": "lk.cloud_agent_id",
+                  "value": {
+                    "stringValue": "CA_sq5brpU7a8FQ"
+                  }
+                },
+                {
+                  "key": "logger.name",
+                  "value": {
+                    "stringValue": "livekit.agents"
+                  }
+                },
+                {
+                  "key": "lk.id",
+                  "value": {
+                    "stringValue": "f5d91de6-4d99-d4b2-7a1f-3b0e0ca0d1d0"
+                  }
+                }
+              ],
+              "flags": 3,
+              "traceId": "MnyfWzqFcKl/A6REE+5azA==",
+              "spanId": "4euxI9Defnc="
+            },
+            {
+              "timeUnixNano": "1786838130538518784",
+              "observedTimeUnixNano": "1786838130538682285",
+              "severityNumber": "SEVERITY_NUMBER_INFO",
+              "severityText": "INFO",
+              "body": {
+                "stringValue": "LLM metrics"
+              },
+              "attributes": [
+                {
+                  "key": "model_name",
+                  "value": {
+                    "stringValue": "zai-org/GLM-5.2-Fast"
+                  }
+                },
+                {
+                  "key": "model_provider",
+                  "value": {
+                    "stringValue": "inference.baseten.co"
+                  }
+                },
+                {
+                  "key": "ttft",
+                  "value": {
+                    "doubleValue": 0.35
+                  }
+                },
+                {
+                  "key": "prompt_tokens",
+                  "value": {
+                    "intValue": "16303"
+                  }
+                },
+                {
+                  "key": "prompt_cached_tokens",
+                  "value": {
+                    "intValue": "16256"
+                  }
+                },
+                {
+                  "key": "cache_creation_tokens",
+                  "value": {
+                    "intValue": "0"
+                  }
+                },
+                {
+                  "key": "completion_tokens",
+                  "value": {
+                    "intValue": "65"
+                  }
+                },
+                {
+                  "key": "tokens_per_second",
+                  "value": {
+                    "doubleValue": 91.06
+                  }
+                },
+                {
+                  "key": "code.file.path",
+                  "value": {
+                    "stringValue": "/opt/venv/lib/python3.11/site-packages/livekit/agents/metrics/utils.py"
+                  }
+                },
+                {
+                  "key": "code.function.name",
+                  "value": {
+                    "stringValue": "log_metrics"
+                  }
+                },
+                {
+                  "key": "code.line.number",
+                  "value": {
+                    "intValue": "30"
+                  }
+                },
+                {
+                  "key": "room_id",
+                  "value": {
+                    "stringValue": "RM_TGKuQWTiT8WZ"
+                  }
+                },
+                {
+                  "key": "job_id",
+                  "value": {
+                    "stringValue": "AJ_PRU3z3NiQa9w"
+                  }
+                },
+                {
+                  "key": "lk.agent_name",
+                  "value": {
+                    "stringValue": "aria"
+                  }
+                },
+                {
+                  "key": "lk.cloud_agent_id",
+                  "value": {
+                    "stringValue": "CA_sq5brpU7a8FQ"
+                  }
+                },
+                {
+                  "key": "logger.name",
+                  "value": {
+                    "stringValue": "livekit.agents"
+                  }
+                },
+                {
+                  "key": "lk.id",
+                  "value": {
+                    "stringValue": "012130cd-a0d4-3f87-b3d5-e8baf9326ba9"
+                  }
+                }
+              ],
+              "flags": 3,
+              "traceId": "MnyfWzqFcKl/A6REE+5azA==",
+              "spanId": "OjhL885wLuE="
+            },
+            {
+              "timeUnixNano": "1786838131352982016",
+              "observedTimeUnixNano": "1786838131353125673",
+              "severityNumber": "SEVERITY_NUMBER_INFO",
+              "severityText": "INFO",
+              "body": {
+                "stringValue": "TTS metrics"
+              },
+              "attributes": [
+                {
+                  "key": "model_name",
+                  "value": {
+                    "stringValue": "eleven_turbo_v2_5"
+                  }
+                },
+                {
+                  "key": "model_provider",
+                  "value": {
+                    "stringValue": "ElevenLabs"
+                  }
+                },
+                {
+                  "key": "ttfb",
+                  "value": {
+                    "doubleValue": 0.26420687499967244
+                  }
+                },
+                {
+                  "key": "audio_duration",
+                  "value": {
+                    "doubleValue": 20.56
+                  }
+                },
+                {
+                  "key": "code.file.path",
+                  "value": {
+                    "stringValue": "/opt/venv/lib/python3.11/site-packages/livekit/agents/metrics/utils.py"
+                  }
+                },
+                {
+                  "key": "code.function.name",
+                  "value": {
+                    "stringValue": "log_metrics"
+                  }
+                },
+                {
+                  "key": "code.line.number",
+                  "value": {
+                    "intValue": "71"
+                  }
+                },
+                {
+                  "key": "room_id",
+                  "value": {
+                    "stringValue": "RM_TGKuQWTiT8WZ"
+                  }
+                },
+                {
+                  "key": "job_id",
+                  "value": {
+                    "stringValue": "AJ_PRU3z3NiQa9w"
+                  }
+                },
+                {
+                  "key": "lk.agent_name",
+                  "value": {
+                    "stringValue": "aria"
+                  }
+                },
+                {
+                  "key": "lk.cloud_agent_id",
+                  "value": {
+                    "stringValue": "CA_sq5brpU7a8FQ"
+                  }
+                },
+                {
+                  "key": "logger.name",
+                  "value": {
+                    "stringValue": "livekit.agents"
+                  }
+                },
+                {
+                  "key": "lk.id",
+                  "value": {
+                    "stringValue": "22c14917-4e85-fb0e-7810-47f95c4b9df3"
+                  }
+                }
+              ],
+              "flags": 3,
+              "traceId": "MnyfWzqFcKl/A6REE+5azA==",
+              "spanId": "rVY4wdzkruc="
+            },
+            {
+              "timeUnixNano": "1786838132392330240",
+              "observedTimeUnixNano": "1786838132392526502",
+              "severityNumber": "SEVERITY_NUMBER_INFO",
+              "severityText": "INFO",
+              "body": {
+                "stringValue": "STT metrics"
+              },
+              "attributes": [
+                {
+                  "key": "model_name",
+                  "value": {
+                    "stringValue": "nova-3"
+                  }
+                },
+                {
+                  "key": "model_provider",
+                  "value": {
+                    "stringValue": "Deepgram"
+                  }
+                },
+                {
+                  "key": "audio_duration",
+                  "value": {
+                    "doubleValue": 5.05
+                  }
+                },
+                {
+                  "key": "code.file.path",
+                  "value": {
+                    "stringValue": "/opt/venv/lib/python3.11/site-packages/livekit/agents/metrics/utils.py"
+                  }
+                },
+                {
+                  "key": "code.function.name",
+                  "value": {
+                    "stringValue": "log_metrics"
+                  }
+                },
+                {
+                  "key": "code.line.number",
+                  "value": {
+                    "intValue": "89"
+                  }
+                },
+                {
+                  "key": "room_id",
+                  "value": {
+                    "stringValue": "RM_TGKuQWTiT8WZ"
+                  }
+                },
+                {
+                  "key": "job_id",
+                  "value": {
+                    "stringValue": "AJ_PRU3z3NiQa9w"
+                  }
+                },
+                {
+                  "key": "lk.agent_name",
+                  "value": {
+                    "stringValue": "aria"
+                  }
+                },
+                {
+                  "key": "lk.cloud_agent_id",
+                  "value": {
+                    "stringValue": "CA_sq5brpU7a8FQ"
+                  }
+                },
+                {
+                  "key": "logger.name",
+                  "value": {
+                    "stringValue": "livekit.agents"
+                  }
+                },
+                {
+                  "key": "lk.id",
+                  "value": {
+                    "stringValue": "5a649986-5516-3b87-9ccd-7e372c95ad6d"
+                  }
+                }
+              ],
+              "flags": 3,
+              "traceId": "MnyfWzqFcKl/A6REE+5azA==",
+              "spanId": "4euxI9Defnc="
+            },
+            {
+              "timeUnixNano": "1786838137445399296",
+              "observedTimeUnixNano": "1786838137445592373",
+              "severityNumber": "SEVERITY_NUMBER_INFO",
+              "severityText": "INFO",
+              "body": {
+                "stringValue": "STT metrics"
+              },
+              "attributes": [
+                {
+                  "key": "model_name",
+                  "value": {
+                    "stringValue": "nova-3"
+                  }
+                },
+                {
+                  "key": "model_provider",
+                  "value": {
+                    "stringValue": "Deepgram"
+                  }
+                },
+                {
+                  "key": "audio_duration",
+                  "value": {
+                    "doubleValue": 5.05
+                  }
+                },
+                {
+                  "key": "code.file.path",
+                  "value": {
+                    "stringValue": "/opt/venv/lib/python3.11/site-packages/livekit/agents/metrics/utils.py"
+                  }
+                },
+                {
+                  "key": "code.function.name",
+                  "value": {
+                    "stringValue": "log_metrics"
+                  }
+                },
+                {
+                  "key": "code.line.number",
+                  "value": {
+                    "intValue": "89"
+                  }
+                },
+                {
+                  "key": "room_id",
+                  "value": {
+                    "stringValue": "RM_TGKuQWTiT8WZ"
+                  }
+                },
+                {
+                  "key": "job_id",
+                  "value": {
+                    "stringValue": "AJ_PRU3z3NiQa9w"
+                  }
+                },
+                {
+                  "key": "lk.agent_name",
+                  "value": {
+                    "stringValue": "aria"
+                  }
+                },
+                {
+                  "key": "lk.cloud_agent_id",
+                  "value": {
+                    "stringValue": "CA_sq5brpU7a8FQ"
+                  }
+                },
+                {
+                  "key": "logger.name",
+                  "value": {
+                    "stringValue": "livekit.agents"
+                  }
+                },
+                {
+                  "key": "lk.id",
+                  "value": {
+                    "stringValue": "30743cef-6baa-2a42-b9ac-d811a557885f"
+                  }
+                }
+              ],
+              "flags": 3,
+              "traceId": "MnyfWzqFcKl/A6REE+5azA==",
+              "spanId": "4euxI9Defnc="
+            },
+            {
+              "timeUnixNano": "1786838142492804864",
+              "observedTimeUnixNano": "1786838142493010409",
+              "severityNumber": "SEVERITY_NUMBER_INFO",
+              "severityText": "INFO",
+              "body": {
+                "stringValue": "STT metrics"
+              },
+              "attributes": [
+                {
+                  "key": "model_name",
+                  "value": {
+                    "stringValue": "nova-3"
+                  }
+                },
+                {
+                  "key": "model_provider",
+                  "value": {
+                    "stringValue": "Deepgram"
+                  }
+                },
+                {
+                  "key": "audio_duration",
+                  "value": {
+                    "doubleValue": 5.05
+                  }
+                },
+                {
+                  "key": "code.file.path",
+                  "value": {
+                    "stringValue": "/opt/venv/lib/python3.11/site-packages/livekit/agents/metrics/utils.py"
+                  }
+                },
+                {
+                  "key": "code.function.name",
+                  "value": {
+                    "stringValue": "log_metrics"
+                  }
+                },
+                {
+                  "key": "code.line.number",
+                  "value": {
+                    "intValue": "89"
+                  }
+                },
+                {
+                  "key": "room_id",
+                  "value": {
+                    "stringValue": "RM_TGKuQWTiT8WZ"
+                  }
+                },
+                {
+                  "key": "job_id",
+                  "value": {
+                    "stringValue": "AJ_PRU3z3NiQa9w"
+                  }
+                },
+                {
+                  "key": "lk.agent_name",
+                  "value": {
+                    "stringValue": "aria"
+                  }
+                },
+                {
+                  "key": "lk.cloud_agent_id",
+                  "value": {
+                    "stringValue": "CA_sq5brpU7a8FQ"
+                  }
+                },
+                {
+                  "key": "logger.name",
+                  "value": {
+                    "stringValue": "livekit.agents"
+                  }
+                },
+                {
+                  "key": "lk.id",
+                  "value": {
+                    "stringValue": "5a20c687-9b5d-021c-c307-92ddee32edda"
+                  }
+                }
+              ],
+              "flags": 3,
+              "traceId": "MnyfWzqFcKl/A6REE+5azA==",
+              "spanId": "4euxI9Defnc="
+            },
+            {
+              "timeUnixNano": "1786838147543490560",
+              "observedTimeUnixNano": "1786838147543784734",
+              "severityNumber": "SEVERITY_NUMBER_INFO",
+              "severityText": "INFO",
+              "body": {
+                "stringValue": "STT metrics"
+              },
+              "attributes": [
+                {
+                  "key": "model_name",
+                  "value": {
+                    "stringValue": "nova-3"
+                  }
+                },
+                {
+                  "key": "model_provider",
+                  "value": {
+                    "stringValue": "Deepgram"
+                  }
+                },
+                {
+                  "key": "audio_duration",
+                  "value": {
+                    "doubleValue": 5.05
+                  }
+                },
+                {
+                  "key": "code.file.path",
+                  "value": {
+                    "stringValue": "/opt/venv/lib/python3.11/site-packages/livekit/agents/metrics/utils.py"
+                  }
+                },
+                {
+                  "key": "code.function.name",
+                  "value": {
+                    "stringValue": "log_metrics"
+                  }
+                },
+                {
+                  "key": "code.line.number",
+                  "value": {
+                    "intValue": "89"
+                  }
+                },
+                {
+                  "key": "room_id",
+                  "value": {
+                    "stringValue": "RM_TGKuQWTiT8WZ"
+                  }
+                },
+                {
+                  "key": "job_id",
+                  "value": {
+                    "stringValue": "AJ_PRU3z3NiQa9w"
+                  }
+                },
+                {
+                  "key": "lk.agent_name",
+                  "value": {
+                    "stringValue": "aria"
+                  }
+                },
+                {
+                  "key": "lk.cloud_agent_id",
+                  "value": {
+                    "stringValue": "CA_sq5brpU7a8FQ"
+                  }
+                },
+                {
+                  "key": "logger.name",
+                  "value": {
+                    "stringValue": "livekit.agents"
+                  }
+                },
+                {
+                  "key": "lk.id",
+                  "value": {
+                    "stringValue": "b4e2fef9-7026-93af-df7c-41e00d63c845"
+                  }
+                }
+              ],
+              "flags": 3,
+              "traceId": "MnyfWzqFcKl/A6REE+5azA==",
+              "spanId": "4euxI9Defnc="
+            },
+            {
+              "timeUnixNano": "1786838152592090624",
+              "observedTimeUnixNano": "1786838152592295448",
+              "severityNumber": "SEVERITY_NUMBER_INFO",
+              "severityText": "INFO",
+              "body": {
+                "stringValue": "STT metrics"
+              },
+              "attributes": [
+                {
+                  "key": "model_name",
+                  "value": {
+                    "stringValue": "nova-3"
+                  }
+                },
+                {
+                  "key": "model_provider",
+                  "value": {
+                    "stringValue": "Deepgram"
+                  }
+                },
+                {
+                  "key": "audio_duration",
+                  "value": {
+                    "doubleValue": 5.05
+                  }
+                },
+                {
+                  "key": "code.file.path",
+                  "value": {
+                    "stringValue": "/opt/venv/lib/python3.11/site-packages/livekit/agents/metrics/utils.py"
+                  }
+                },
+                {
+                  "key": "code.function.name",
+                  "value": {
+                    "stringValue": "log_metrics"
+                  }
+                },
+                {
+                  "key": "code.line.number",
+                  "value": {
+                    "intValue": "89"
+                  }
+                },
+                {
+                  "key": "room_id",
+                  "value": {
+                    "stringValue": "RM_TGKuQWTiT8WZ"
+                  }
+                },
+                {
+                  "key": "job_id",
+                  "value": {
+                    "stringValue": "AJ_PRU3z3NiQa9w"
+                  }
+                },
+                {
+                  "key": "lk.agent_name",
+                  "value": {
+                    "stringValue": "aria"
+                  }
+                },
+                {
+                  "key": "lk.cloud_agent_id",
+                  "value": {
+                    "stringValue": "CA_sq5brpU7a8FQ"
+                  }
+                },
+                {
+                  "key": "logger.name",
+                  "value": {
+                    "stringValue": "livekit.agents"
+                  }
+                },
+                {
+                  "key": "lk.id",
+                  "value": {
+                    "stringValue": "8772de10-7f86-4ab4-25d0-868f553fdb51"
+                  }
+                }
+              ],
+              "flags": 3,
+              "traceId": "MnyfWzqFcKl/A6REE+5azA==",
+              "spanId": "4euxI9Defnc="
+            },
+            {
+              "timeUnixNano": "1786838154798707456",
+              "observedTimeUnixNano": "1786838154798853420",
+              "severityNumber": "SEVERITY_NUMBER_INFO",
+              "severityText": "INFO",
+              "body": {
+                "stringValue": "EOU metrics"
+              },
+              "attributes": [
+                {
+                  "key": "model_name",
+                  "value": {
+                    "stringValue": "turn-detector-v1"
+                  }
+                },
+                {
+                  "key": "model_provider",
+                  "value": {
+                    "stringValue": "livekit"
+                  }
+                },
+                {
+                  "key": "end_of_utterance_delay",
+                  "value": {
+                    "doubleValue": 0.58
+                  }
+                },
+                {
+                  "key": "transcription_delay",
+                  "value": {
+                    "doubleValue": 0.26
+                  }
+                },
+                {
+                  "key": "code.file.path",
+                  "value": {
+                    "stringValue": "/opt/venv/lib/python3.11/site-packages/livekit/agents/metrics/utils.py"
+                  }
+                },
+                {
+                  "key": "code.function.name",
+                  "value": {
+                    "stringValue": "log_metrics"
+                  }
+                },
+                {
+                  "key": "code.line.number",
+                  "value": {
+                    "intValue": "80"
+                  }
+                },
+                {
+                  "key": "room_id",
+                  "value": {
+                    "stringValue": "RM_TGKuQWTiT8WZ"
+                  }
+                },
+                {
+                  "key": "job_id",
+                  "value": {
+                    "stringValue": "AJ_PRU3z3NiQa9w"
+                  }
+                },
+                {
+                  "key": "lk.agent_name",
+                  "value": {
+                    "stringValue": "aria"
+                  }
+                },
+                {
+                  "key": "lk.cloud_agent_id",
+                  "value": {
+                    "stringValue": "CA_sq5brpU7a8FQ"
+                  }
+                },
+                {
+                  "key": "logger.name",
+                  "value": {
+                    "stringValue": "livekit.agents"
+                  }
+                },
+                {
+                  "key": "lk.id",
+                  "value": {
+                    "stringValue": "b73709ef-49cf-d1f8-2e92-78311e0a9f22"
+                  }
+                }
+              ],
+              "flags": 3,
+              "traceId": "MnyfWzqFcKl/A6REE+5azA==",
+              "spanId": "4euxI9Defnc="
+            }
+          ]
+        },
+        {
+          "scope": {
+            "name": "omni-aria.tools"
+          },
+          "logRecords": [
+            {
+              "timeUnixNano": "1786838156283275008",
+              "observedTimeUnixNano": "1786838156283462580",
+              "severityNumber": "SEVERITY_NUMBER_INFO",
+              "severityText": "INFO",
+              "body": {
+                "stringValue": "CAPTURE={'capture_type': 'cancellation', 'caller_name': 'Brendan Yodi', 'callback_phone': '3124567809', 'confirmation_number': 'ABC12345', 'property_name': 'Omni Scottsdale Resort & Spa at Montelucia', 'original_arrival_date': '2026-08-21', 'cancellation_fee_expected': False, 'policy_note': 'Scottsdale summer policy, arrival Aug 21, deadline was noon Aug 18, still within window as of Aug 15'}"
+              },
+              "attributes": [
+                {
+                  "key": "code.file.path",
+                  "value": {
+                    "stringValue": "/app/tools.py"
+                  }
+                },
+                {
+                  "key": "code.function.name",
+                  "value": {
+                    "stringValue": "log_cancellation_capture"
+                  }
+                },
+                {
+                  "key": "code.line.number",
+                  "value": {
+                    "intValue": "240"
+                  }
+                },
+                {
+                  "key": "room_id",
+                  "value": {
+                    "stringValue": "RM_TGKuQWTiT8WZ"
+                  }
+                },
+                {
+                  "key": "job_id",
+                  "value": {
+                    "stringValue": "AJ_PRU3z3NiQa9w"
+                  }
+                },
+                {
+                  "key": "lk.agent_name",
+                  "value": {
+                    "stringValue": "aria"
+                  }
+                },
+                {
+                  "key": "lk.cloud_agent_id",
+                  "value": {
+                    "stringValue": "CA_sq5brpU7a8FQ"
+                  }
+                },
+                {
+                  "key": "logger.name",
+                  "value": {
+                    "stringValue": "omni-aria.tools"
+                  }
+                },
+                {
+                  "key": "lk.id",
+                  "value": {
+                    "stringValue": "375be4bc-9c5f-545f-6c41-0023ba58f3b0"
+                  }
+                }
+              ],
+              "flags": 3,
+              "traceId": "MnyfWzqFcKl/A6REE+5azA==",
+              "spanId": "vUGhHIkgNkk="
+            }
+          ]
+        },
+        {
+          "scope": {
+            "name": "livekit.agents"
+          },
+          "logRecords": [
+            {
+              "timeUnixNano": "1786838156286018048",
+              "observedTimeUnixNano": "1786838156286413532",
+              "severityNumber": "SEVERITY_NUMBER_INFO",
+              "severityText": "INFO",
+              "body": {
+                "stringValue": "LLM metrics"
+              },
+              "attributes": [
+                {
+                  "key": "model_name",
+                  "value": {
+                    "stringValue": "zai-org/GLM-5.2-Fast"
+                  }
+                },
+                {
+                  "key": "model_provider",
+                  "value": {
+                    "stringValue": "inference.baseten.co"
+                  }
+                },
+                {
+                  "key": "ttft",
+                  "value": {
+                    "doubleValue": 1.79
+                  }
+                },
+                {
+                  "key": "prompt_tokens",
+                  "value": {
+                    "intValue": "16378"
+                  }
+                },
+                {
+                  "key": "prompt_cached_tokens",
+                  "value": {
+                    "intValue": "16288"
+                  }
+                },
+                {
+                  "key": "cache_creation_tokens",
+                  "value": {
+                    "intValue": "0"
+                  }
+                },
+                {
+                  "key": "completion_tokens",
+                  "value": {
+                    "intValue": "110"
+                  }
+                },
+                {
+                  "key": "tokens_per_second",
+                  "value": {
+                    "doubleValue": 61.27
+                  }
+                },
+                {
+                  "key": "code.file.path",
+                  "value": {
+                    "stringValue": "/opt/venv/lib/python3.11/site-packages/livekit/agents/metrics/utils.py"
+                  }
+                },
+                {
+                  "key": "code.function.name",
+                  "value": {
+                    "stringValue": "log_metrics"
+                  }
+                },
+                {
+                  "key": "code.line.number",
+                  "value": {
+                    "intValue": "30"
+                  }
+                },
+                {
+                  "key": "room_id",
+                  "value": {
+                    "stringValue": "RM_TGKuQWTiT8WZ"
+                  }
+                },
+                {
+                  "key": "job_id",
+                  "value": {
+                    "stringValue": "AJ_PRU3z3NiQa9w"
+                  }
+                },
+                {
+                  "key": "lk.agent_name",
+                  "value": {
+                    "stringValue": "aria"
+                  }
+                },
+                {
+                  "key": "lk.cloud_agent_id",
+                  "value": {
+                    "stringValue": "CA_sq5brpU7a8FQ"
+                  }
+                },
+                {
+                  "key": "logger.name",
+                  "value": {
+                    "stringValue": "livekit.agents"
+                  }
+                },
+                {
+                  "key": "lk.id",
+                  "value": {
+                    "stringValue": "8d6edd40-2ad2-d8b5-6869-ee624bc8e57b"
+                  }
+                }
+              ],
+              "flags": 3,
+              "traceId": "MnyfWzqFcKl/A6REE+5azA==",
+              "spanId": "FbRU4UrfbJw="
+            },
+            {
+              "timeUnixNano": "1786838157592247808",
+              "observedTimeUnixNano": "1786838157592491224",
+              "severityNumber": "SEVERITY_NUMBER_INFO",
+              "severityText": "INFO",
+              "body": {
+                "stringValue": "STT metrics"
+              },
+              "attributes": [
+                {
+                  "key": "model_name",
+                  "value": {
+                    "stringValue": "nova-3"
+                  }
+                },
+                {
+                  "key": "model_provider",
+                  "value": {
+                    "stringValue": "Deepgram"
+                  }
+                },
+                {
+                  "key": "audio_duration",
+                  "value": {
+                    "doubleValue": 5
+                  }
+                },
+                {
+                  "key": "code.file.path",
+                  "value": {
+                    "stringValue": "/opt/venv/lib/python3.11/site-packages/livekit/agents/metrics/utils.py"
+                  }
+                },
+                {
+                  "key": "code.function.name",
+                  "value": {
+                    "stringValue": "log_metrics"
+                  }
+                },
+                {
+                  "key": "code.line.number",
+                  "value": {
+                    "intValue": "89"
+                  }
+                },
+                {
+                  "key": "room_id",
+                  "value": {
+                    "stringValue": "RM_TGKuQWTiT8WZ"
+                  }
+                },
+                {
+                  "key": "job_id",
+                  "value": {
+                    "stringValue": "AJ_PRU3z3NiQa9w"
+                  }
+                },
+                {
+                  "key": "lk.agent_name",
+                  "value": {
+                    "stringValue": "aria"
+                  }
+                },
+                {
+                  "key": "lk.cloud_agent_id",
+                  "value": {
+                    "stringValue": "CA_sq5brpU7a8FQ"
+                  }
+                },
+                {
+                  "key": "logger.name",
+                  "value": {
+                    "stringValue": "livekit.agents"
+                  }
+                },
+                {
+                  "key": "lk.id",
+                  "value": {
+                    "stringValue": "beae4c44-7ed8-1262-2dc0-9e8156ab65fa"
+                  }
+                }
+              ],
+              "flags": 3,
+              "traceId": "MnyfWzqFcKl/A6REE+5azA==",
+              "spanId": "4euxI9Defnc="
+            },
+            {
+              "timeUnixNano": "1786838158695112704",
+              "observedTimeUnixNano": "1786838158695511493",
+              "severityNumber": "SEVERITY_NUMBER_INFO",
+              "severityText": "INFO",
+              "body": {
+                "stringValue": "LLM metrics"
+              },
+              "attributes": [
+                {
+                  "key": "model_name",
+                  "value": {
+                    "stringValue": "zai-org/GLM-5.2-Fast"
+                  }
+                },
+                {
+                  "key": "model_provider",
+                  "value": {
+                    "stringValue": "inference.baseten.co"
+                  }
+                },
+                {
+                  "key": "ttft",
+                  "value": {
+                    "doubleValue": 2.25
+                  }
+                },
+                {
+                  "key": "prompt_tokens",
+                  "value": {
+                    "intValue": "16498"
+                  }
+                },
+                {
+                  "key": "prompt_cached_tokens",
+                  "value": {
+                    "intValue": "16352"
+                  }
+                },
+                {
+                  "key": "cache_creation_tokens",
+                  "value": {
+                    "intValue": "0"
+                  }
+                },
+                {
+                  "key": "completion_tokens",
+                  "value": {
+                    "intValue": "39"
+                  }
+                },
+                {
+                  "key": "tokens_per_second",
+                  "value": {
+                    "doubleValue": 16.24
+                  }
+                },
+                {
+                  "key": "code.file.path",
+                  "value": {
+                    "stringValue": "/opt/venv/lib/python3.11/site-packages/livekit/agents/metrics/utils.py"
+                  }
+                },
+                {
+                  "key": "code.function.name",
+                  "value": {
+                    "stringValue": "log_metrics"
+                  }
+                },
+                {
+                  "key": "code.line.number",
+                  "value": {
+                    "intValue": "30"
+                  }
+                },
+                {
+                  "key": "room_id",
+                  "value": {
+                    "stringValue": "RM_TGKuQWTiT8WZ"
+                  }
+                },
+                {
+                  "key": "job_id",
+                  "value": {
+                    "stringValue": "AJ_PRU3z3NiQa9w"
+                  }
+                },
+                {
+                  "key": "lk.agent_name",
+                  "value": {
+                    "stringValue": "aria"
+                  }
+                },
+                {
+                  "key": "lk.cloud_agent_id",
+                  "value": {
+                    "stringValue": "CA_sq5brpU7a8FQ"
+                  }
+                },
+                {
+                  "key": "logger.name",
+                  "value": {
+                    "stringValue": "livekit.agents"
+                  }
+                },
+                {
+                  "key": "lk.id",
+                  "value": {
+                    "stringValue": "171d3917-7e94-bf4d-1c93-11984b809f39"
+                  }
+                }
+              ],
+              "flags": 3,
+              "traceId": "MnyfWzqFcKl/A6REE+5azA==",
+              "spanId": "PWNZTwyDbBw="
+            },
+            {
+              "timeUnixNano": "1786838159152984576",
+              "observedTimeUnixNano": "1786838159153146277",
+              "severityNumber": "SEVERITY_NUMBER_INFO",
+              "severityText": "INFO",
+              "body": {
+                "stringValue": "TTS metrics"
+              },
+              "attributes": [
+                {
+                  "key": "model_name",
+                  "value": {
+                    "stringValue": "eleven_turbo_v2_5"
+                  }
+                },
+                {
+                  "key": "model_provider",
+                  "value": {
+                    "stringValue": "ElevenLabs"
+                  }
+                },
+                {
+                  "key": "ttfb",
+                  "value": {
+                    "doubleValue": 0.13591052500032674
+                  }
+                },
+                {
+                  "key": "audio_duration",
+                  "value": {
+                    "doubleValue": 8.41
+                  }
+                },
+                {
+                  "key": "code.file.path",
+                  "value": {
+                    "stringValue": "/opt/venv/lib/python3.11/site-packages/livekit/agents/metrics/utils.py"
+                  }
+                },
+                {
+                  "key": "code.function.name",
+                  "value": {
+                    "stringValue": "log_metrics"
+                  }
+                },
+                {
+                  "key": "code.line.number",
+                  "value": {
+                    "intValue": "71"
+                  }
+                },
+                {
+                  "key": "room_id",
+                  "value": {
+                    "stringValue": "RM_TGKuQWTiT8WZ"
+                  }
+                },
+                {
+                  "key": "job_id",
+                  "value": {
+                    "stringValue": "AJ_PRU3z3NiQa9w"
+                  }
+                },
+                {
+                  "key": "lk.agent_name",
+                  "value": {
+                    "stringValue": "aria"
+                  }
+                },
+                {
+                  "key": "lk.cloud_agent_id",
+                  "value": {
+                    "stringValue": "CA_sq5brpU7a8FQ"
+                  }
+                },
+                {
+                  "key": "logger.name",
+                  "value": {
+                    "stringValue": "livekit.agents"
+                  }
+                },
+                {
+                  "key": "lk.id",
+                  "value": {
+                    "stringValue": "95054f15-a31f-cebe-4e31-d8b8828451e0"
+                  }
+                }
+              ],
+              "flags": 3,
+              "traceId": "MnyfWzqFcKl/A6REE+5azA==",
+              "spanId": "zDIUewXDj3s="
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "resource": {
+        "attributes": [
+          {
+            "key": "telemetry.sdk.language",
+            "value": {
+              "stringValue": "python"
+            }
+          },
+          {
+            "key": "telemetry.sdk.name",
+            "value": {
+              "stringValue": "opentelemetry"
+            }
+          },
+          {
+            "key": "telemetry.sdk.version",
+            "value": {
+              "stringValue": "1.44.0"
+            }
+          },
+          {
+            "key": "service.instance.id",
+            "value": {
+              "stringValue": "918b152d-8d2c-49cf-918e-51e175a5b44d"
+            }
+          },
+          {
+            "key": "service.name",
+            "value": {
+              "stringValue": "unknown_service"
+            }
+          }
+        ]
+      },
+      "scopeLogs": [
+        {
+          "scope": {
+            "name": "livekit.agents"
+          },
+          "logRecords": [
+            {
+              "timeUnixNano": "1786838162645562368",
+              "observedTimeUnixNano": "1786838162645839027",
+              "severityNumber": "SEVERITY_NUMBER_INFO",
+              "severityText": "INFO",
+              "body": {
+                "stringValue": "STT metrics"
+              },
+              "attributes": [
+                {
+                  "key": "model_name",
+                  "value": {
+                    "stringValue": "nova-3"
+                  }
+                },
+                {
+                  "key": "model_provider",
+                  "value": {
+                    "stringValue": "Deepgram"
+                  }
+                },
+                {
+                  "key": "audio_duration",
+                  "value": {
+                    "doubleValue": 5.05
+                  }
+                },
+                {
+                  "key": "code.file.path",
+                  "value": {
+                    "stringValue": "/opt/venv/lib/python3.11/site-packages/livekit/agents/metrics/utils.py"
+                  }
+                },
+                {
+                  "key": "code.function.name",
+                  "value": {
+                    "stringValue": "log_metrics"
+                  }
+                },
+                {
+                  "key": "code.line.number",
+                  "value": {
+                    "intValue": "89"
+                  }
+                },
+                {
+                  "key": "room_id",
+                  "value": {
+                    "stringValue": "RM_TGKuQWTiT8WZ"
+                  }
+                },
+                {
+                  "key": "job_id",
+                  "value": {
+                    "stringValue": "AJ_PRU3z3NiQa9w"
+                  }
+                },
+                {
+                  "key": "lk.agent_name",
+                  "value": {
+                    "stringValue": "aria"
+                  }
+                },
+                {
+                  "key": "lk.cloud_agent_id",
+                  "value": {
+                    "stringValue": "CA_sq5brpU7a8FQ"
+                  }
+                },
+                {
+                  "key": "logger.name",
+                  "value": {
+                    "stringValue": "livekit.agents"
+                  }
+                },
+                {
+                  "key": "lk.id",
+                  "value": {
+                    "stringValue": "1f252a33-f69a-5aef-45bd-32e6f3e7a85b"
+                  }
+                }
+              ],
+              "flags": 3,
+              "traceId": "MnyfWzqFcKl/A6REE+5azA==",
+              "spanId": "4euxI9Defnc="
+            }
+          ]
+        },
+        {
+          "scope": {
+            "name": "omni-aria"
+          },
+          "logRecords": [
+            {
+              "timeUnixNano": "1786838168090538496",
+              "observedTimeUnixNano": "1786838168091286698",
+              "severityNumber": "SEVERITY_NUMBER_INFO",
+              "severityText": "INFO",
+              "body": {
+                "stringValue": "Session summary: UsageSummary(llm_prompt_tokens=193648, llm_prompt_cached_tokens=179456, llm_input_audio_tokens=0, llm_input_cached_audio_tokens=0, llm_input_text_tokens=0, llm_input_cached_text_tokens=0, llm_input_image_tokens=0, llm_input_cached_image_tokens=0, llm_completion_tokens=569, llm_output_audio_tokens=0, llm_output_image_tokens=0, llm_output_text_tokens=0, tts_characters_count=1356, tts_audio_duration=80.14367346938788, stt_audio_duration=125.24999999999972)"
+              },
+              "attributes": [
+                {
+                  "key": "code.file.path",
+                  "value": {
+                    "stringValue": "/app/agent.py"
+                  }
+                },
+                {
+                  "key": "code.function.name",
+                  "value": {
+                    "stringValue": "_log_usage_on_shutdown"
+                  }
+                },
+                {
+                  "key": "code.line.number",
+                  "value": {
+                    "intValue": "166"
+                  }
+                },
+                {
+                  "key": "room_id",
+                  "value": {
+                    "stringValue": "RM_TGKuQWTiT8WZ"
+                  }
+                },
+                {
+                  "key": "job_id",
+                  "value": {
+                    "stringValue": "AJ_PRU3z3NiQa9w"
+                  }
+                },
+                {
+                  "key": "lk.agent_name",
+                  "value": {
+                    "stringValue": "aria"
+                  }
+                },
+                {
+                  "key": "lk.cloud_agent_id",
+                  "value": {
+                    "stringValue": "CA_sq5brpU7a8FQ"
+                  }
+                },
+                {
+                  "key": "logger.name",
+                  "value": {
+                    "stringValue": "omni-aria"
+                  }
+                },
+                {
+                  "key": "lk.id",
+                  "value": {
+                    "stringValue": "738973f4-6162-8297-dc2b-9a7dc5616acb"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "scope": {
+            "name": "livekit.agents"
+          },
+          "logRecords": [
+            {
+              "timeUnixNano": "1786838168091468800",
+              "observedTimeUnixNano": "1786838168091867977",
+              "severityNumber": "SEVERITY_NUMBER_INFO",
+              "severityText": "INFO",
+              "body": {
+                "stringValue": "deleting the room because the user ended the call"
+              },
+              "attributes": [
+                {
+                  "key": "code.file.path",
+                  "value": {
+                    "stringValue": "/opt/venv/lib/python3.11/site-packages/livekit/agents/beta/tools/end_call.py"
+                  }
+                },
+                {
+                  "key": "code.function.name",
+                  "value": {
+                    "stringValue": "_on_shutdown"
+                  }
+                },
+                {
+                  "key": "code.line.number",
+                  "value": {
+                    "intValue": "129"
+                  }
+                },
+                {
+                  "key": "room_id",
+                  "value": {
+                    "stringValue": "RM_TGKuQWTiT8WZ"
+                  }
+                },
+                {
+                  "key": "job_id",
+                  "value": {
+                    "stringValue": "AJ_PRU3z3NiQa9w"
+                  }
+                },
+                {
+                  "key": "lk.agent_name",
+                  "value": {
+                    "stringValue": "aria"
+                  }
+                },
+                {
+                  "key": "lk.cloud_agent_id",
+                  "value": {
+                    "stringValue": "CA_sq5brpU7a8FQ"
+                  }
+                },
+                {
+                  "key": "logger.name",
+                  "value": {
+                    "stringValue": "livekit.agents"
+                  }
+                },
+                {
+                  "key": "lk.id",
+                  "value": {
+                    "stringValue": "f5ecdd43-c974-bae0-a332-6bf0f760fca5"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
