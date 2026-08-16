@@ -4,18 +4,31 @@ A LiveKit-based voice AI agent for **Omni Hotels & Resorts**, handling inbound g
 
 Built for the Regal AI Product Specialist take-home. Pivoted from ElevenLabs Agents to LiveKit for platform reliability.
 
+## 🎙 Try Aria live
+
+**[https://omni-aria-frontend.vercel.app/](https://omni-aria-frontend.vercel.app/)**
+
+Open the link, allow microphone access, click **Start**, and talk to Aria. Test scenarios to try are listed in [`docs/test_scenarios.md`](docs/test_scenarios.md).
+
+> **⚠️ Cold-start note:** The agent runs on LiveKit Cloud's free Build tier, which spins down after periods of inactivity. **The very first call after a quiet stretch may take 15–30 seconds to connect** while the container boots. Subsequent calls in the same session are instant. If Aria doesn't greet you within ~30 seconds on a first-of-the-day connection, hang up and start a fresh session — the worker will be warm by then.
+
 ## Architecture (at a glance)
 
 ```
 Caller ──► LiveKit Room ──► Aria (single agent)
                               │
                               ├── STT: Deepgram (nova-3)
-                              ├── LLM: OpenAI-compatible (GLM 4.5 via Baseten by default)
+                              ├── LLM: OpenAI-compatible (GLM 5.2 Fast via Baseten by default)
                               ├── TTS: ElevenLabs (Rachel voice by default)
-                              ├── VAD: Silero
+                              ├── VAD: Silero + livekit turn-detector-v1
                               └── Tools:
-                                   ├── get_weather   (Open-Meteo, no key)
-                                   └── get_local_events (Ticketmaster Discovery)
+                                   ├── EndCallTool         (LiveKit official — graceful hangup + room close)
+                                   ├── verify_date         (Python calendar — deterministic weekday check)
+                                   ├── log_caller_intent   (intent classification per call)
+                                   ├── log_booking_capture / cancel / reschedule / escalation
+                                   │                       (structured handoff data per action)
+                                   ├── get_weather         (Open-Meteo, no key)
+                                   └── get_local_events    (Ticketmaster Discovery)
 ```
 
 **Single agent, no multi-agent workflow** — one comprehensive system prompt handles intent detection, capture flows, escalation, and personalization. The multi-node ElevenLabs workflow architecture proved unreliable in that platform; LiveKit's single-agent pattern is more robust for a demo build.
@@ -24,16 +37,53 @@ Caller ──► LiveKit Room ──► Aria (single agent)
 
 ```
 Omni-Hotels-AI-Agent/
-├── agent.py             # LiveKit worker entrypoint
-├── prompt.py            # Aria's consolidated system prompt (loads kb.txt)
-├── tools.py             # get_weather + get_local_events function tools
-├── kb.txt               # Omni knowledge base (~4,400 words, inlined into prompt)
-├── pyproject.toml       # Python dependencies (managed with uv)
-├── .env.example         # Copy to .env.local and fill in keys
-└── docs/
-    ├── kb_source.md         # Where the KB was scraped from
-    └── test_scenarios.md    # 12-scenario test matrix for slide 3 metrics
+├── agent.py                # LiveKit worker entrypoint
+├── prompt.py               # Aria's consolidated system prompt (loads kb.txt)
+├── tools.py                # end_call, verify_date, log_caller_intent,
+│                           # log_*_capture, get_weather, get_local_events
+├── kb.txt                  # Omni knowledge base (~4,400 words, inlined into prompt)
+├── requirements.txt        # pip-installable dependencies
+├── pyproject.toml          # uv-friendly dependency spec
+├── Dockerfile              # Container image for LiveKit Cloud deployment
+├── .env.example            # Copy to .env.local and fill in keys
+├── docs/
+│   ├── SETUP.md                # End-to-end setup + deploy walkthrough
+│   ├── frontend_deploy.md      # Next.js frontend deploy to Vercel
+│   ├── kb_source.md            # Where the KB was scraped from
+│   ├── test_scenarios.md       # 14-scenario test matrix
+│   └── test_metrics.md         # Running observations + slide 3/4/5 talking points
+├── sessions/               # Per-scenario session bundles from LiveKit
+│   ├── README.md               # Bundle format + rollup instructions
+│   └── NN_slug/                # One folder per scenario, holds:
+│       ├── p_..._audio.oga         # Full call audio
+│       ├── p_..._chat_history.json # Turn-by-turn transcript
+│       ├── p_..._logs.json         # OTel logs (intent + capture lines)
+│       ├── p_..._metrics.json      # OTel metrics (latency histograms)
+│       └── p_..._traces.json       # Tool call traces
+└── scripts/
+    └── rollup_metrics.py   # Reads all session bundles, prints aggregated stats
 ```
+
+## Test data & results
+
+All test evidence lives in the repo:
+
+- **[`docs/test_scenarios.md`](docs/test_scenarios.md)** — the 14-scenario test matrix (caller script + expected behavior per scenario)
+- **[`docs/test_metrics.md`](docs/test_metrics.md)** — running observations, per-scenario pass/fail, latency flags, and the pre-drafted slide 3 / 4 / 5 talking points
+- **[`sessions/NN_*/`](sessions/)** — full session bundle per scenario, downloaded from LiveKit Cloud:
+  - `audio.oga` (full call recording)
+  - `chat_history.json` (turn-by-turn transcript)
+  - `logs.json` (OpenTelemetry logs including `CALLER_INTENT=` and `CAPTURE=` lines)
+  - `metrics.json` (OTel metrics including e2e latency, TTFT, TTFB, token usage)
+  - `traces.json` (detailed tool-call and speech-event traces)
+
+To regenerate aggregated stats across all session bundles:
+
+```bash
+python scripts/rollup_metrics.py
+```
+
+Output includes per-scenario latency (min/avg/max), median LLM TTFT, median TTS TTFB, intent distribution, and structured-capture counts by type.
 
 ## Setup — quick start
 
@@ -120,7 +170,13 @@ lk agent logs
 
 ## Testing
 
-Run the 12-scenario matrix from [`docs/test_scenarios.md`](docs/test_scenarios.md). Log outcomes and roll up into slide 3 metrics (intent classification accuracy, containment rate, escalation precision).
+Run the 14-scenario matrix from [`docs/test_scenarios.md`](docs/test_scenarios.md). For each scenario, download the session bundle from the LiveKit Cloud dashboard (Sessions → the session → Download), unzip into `sessions/NN_slug/`, then run:
+
+```bash
+python scripts/rollup_metrics.py
+```
+
+The script produces a table of per-scenario latency + intent + capture counts, plus aggregated medians for slide 3. See [`sessions/README.md`](sessions/README.md) for details on the bundle format.
 
 ## Design notes
 
